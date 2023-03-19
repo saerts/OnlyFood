@@ -1,0 +1,34 @@
+
+export const recipes = [
+  {
+    "recipeTitle": "PHILLY CHEESESTEAKS",
+    "course": "main",
+    "coast": "east",
+    "description": "A cheesesteakk, also known as a Philadelphia cheesesteak, Philly cheesesteak, cheesesteak sandwich, cheese steak, or steak and cheese, is a sandwich made from thinly sliced pieces of beefsteak and melted cheese in a long hoagie roll.",
+    "ingredients": "2 medium onions, halved and sliced, 2 medium sweet red or green peppers, halved and sliced, 1 beef top sirloin steak (1-1/2 pounds), cut into thin strips, 1 envelope onion soup mix, 1 can (14-1/2 ounces) reduced-sodium beef broth, 6 hoagie buns, split, 12 slices provolone cheese, halved, Pickled hot cherry peppers, optional",
+    "directions": "Place onions and red peppers in a 4- or 5-qt. slow cooker. Add beef, soup mix and broth. Cook, covered, on low 6-8 hours or until meat is tender., Arrange buns on a baking sheet, cut side up. Using tongs, place meat mixture on bun bottoms; top with cheese., Broil 2-3 in. from heat 30-60 seconds or until cheese is melted and bun tops are toasted.",
+    "author": "Mr. Food",
+    "date": "3/1/2018"
+  },
+  {
+    "recipeTitle": "NEW ENGLAND CLAM CHOWDER",
+    "course": "main",
+    "coast": "east",
+    "description": "With its fertile farmland, coastal waters, and flavorful influence from generations of immigrants, it’s no surprise that New England cuisine has a reputation for being seasonal, hearty, and comforting.",
+    "ingredients": "4 center-cut bacon strips, 2 celery ribs, chopped, 1 large onion, chopped, 1 garlic clove, minced, 3 small potatoes, peeled and cubed, 1 cup water, 1 bottle (8 ounces) clam juice, 3 teaspoons reduced-sodium chicken bouillon granules, 1/4 teaspoon white pepper, 1/4 teaspoon dried thyme, 1/3 cup all-purpose flour, 2 cups fat-free half-and-half, divided, 2 cans (6-1/2 ounces each) chopped clams, undrained",
+    "directions": "In a Dutch oven, cook bacon over medium heat until crisp. Remove to paper towels to drain; set aside. Saute the celery, onion and garlic in the drippings until tender. Stir in the potatoes, water, clam juice, bouillon, pepper and thyme. Bring to a boil. Reduce heat; simmer, uncovered, for 15-20 minutes or until potatoes are tender., In a small bowl, combine flour and 1 cup half-and-half until smooth. Gradually stir into soup. Bring to a boil; cook and stir for 1-2 minutes or until thickened., Stir in clams and remaining half-and-half; heat through (do not boil). Crumble the reserved bacon; sprinkle over each serving. Yield: 5 servings.",
+    "author": "Mr. Food",
+    "date": "3/1/2018"
+  },
+  {
+    "recipeTitle": "WEST COAST BURGER",
+    "course": "main",
+    "coast": "west",
+    "description": "Absolutely delicious. The sauce is so tangy and spicy, loved it! Carmelized onions are the perfect accompaniment. These touches, along with broiling/toasting the buttered buns made this burger extra special.",
+    "ingredients": "Ground Beep, Grilled Onions: 2 tablespoons canola oil, 2 medium onions, diced, 2 tablespoons yellow mustard, Pinch salt, Special Sauce: 1/3 cup mayonnaise, 3 tablespoons ketchup, 1 tablespoon yellow mustard, 1 tablespoon hot sauce, 1/2 teaspoon garlic powder, 1/2 teaspoon paprika",
+    "directions": "Caramelized Onions: Heat the canola oil in a large skillet over medium heat. Add the onions and cook until soft and lightly caramelized about 15 minutes. Add the mustard and a pinch of salt and cook for another 2 minutes. Remove the onions from the pan to a small bowl and set aside. Special Sauce: In a medium bowl combine all the ingredients and whisk until smooth. Burgers: Preheat the broiler to low.Form the ground meat mixture into 6 equal patties. Do not over handle or compress the patties, keep them loose. This will help create a tender burger. Over mixing and compacting will result in a tough heavy burger.Heat the canola oil a large heavy-bottomed skillet over medium-high heat. In a small bowl combine the salt, pepper and garlic powder and season the burgers generously with the mixture. Put the patties in the skillet and cook for 4 minutes. Flip and let cook for 1 minute, then top each patty with a piece of cheese. Cook for another 2 minutes until the cheese is melted and the burgers are medium.While the burgers are cooking, lightly brush the buns with melted butter and put them on a sheet pan. Broil until lightly toasted, about 2 minutes. To assemble, split the buns and spread each half with about a tablespoon of the special sauce. Put the burgers on the bottom half of each bun, top with caramelized onions, tomato and lettuce. Cover with the top half of the bun and serve.",
+    "author": "Mr. Food",
+    "date": "3/1/2018"
+  }
+]
+

@@ -1,0 +1,14 @@
+{
+  "source": ["input/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "scss",
+      "files": [
+        {
+          "destination": "../../app/_partials/variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    }
+  }
+}
