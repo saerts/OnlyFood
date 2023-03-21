@@ -3,21 +3,14 @@ import {Component, OnInit} from '@angular/core';
 @Component({
   selector: 'app-top-nav',
   template: `
-	  <button>
+	  <button class="iconOnly">
 		  <img src="../../assets/icons/back.svg"/>
 	  </button>
-	  <button>
+	  <button class="iconOnly">
 		  <img src="../../assets/icons/more.svg"/>
 	  </button>
   `,
-  styles: [`
-	  :host{
-		  display:flex;
-		  align-items:center;
-		  justify-content:space-between;
-	  }
-
-  `]
+  styleUrls: ["top-nav.component.scss"]
 })
 export class TopNavComponent implements OnInit {
 

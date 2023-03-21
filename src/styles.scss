@@ -1,3 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
-@import "app/_partials/reset";
-@import "app/_partials/variables";
+@import "reset";
+@import "variables";
+@import "functions";
+
+html {
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+}
+body {
+	-webkit-overflow-scrolling: touch;
+	height: 100%;
+	margin: 0;
+	font-family: $font-families-poppins, "Helvetica Neue", sans-serif;
+}
+
+h2{
+	font-weight: 900;
+	@include font-size($font-size-5);
+	line-height:$line-heights-0;
+	margin-bottom:  $spacing-s;
+}
+
+button.iconOnly{
+	background:none;
+	padding: 0;
+	margin: 0;
+	border: none;
+	width: 24px; height: 24px;
+	cursor:pointer;
+}
