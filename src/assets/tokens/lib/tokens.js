@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 22 Mar 2023 13:13:58 GMT
+ * Generated on Wed, 22 Mar 2023 13:27:16 GMT
  */
 
 export const DarkColorsNeutral10 = "#181818";
