@@ -1,12 +1,32 @@
 {
-  "source": ["input/**/*.json"],
+  "source": [
+    "input/**/*.json"
+  ],
   "platforms": {
-    "css": {
+    "scss": {
       "transformGroup": "scss",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "time/seconds",
+        "content/icon",
+        "size/px",
+        "color/css"
+      ],
       "files": [
         {
           "destination": "../../app/_partials/variables.scss",
+
           "format": "scss/variables"
+        }
+      ]
+    },
+    "javascript": {
+      "transformGroup": "js",
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "lib/tokens.js"
         }
       ]
     }
