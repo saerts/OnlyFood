@@ -18,9 +18,9 @@ body {
 
 h2{
 	font-weight: 700;
-	@include font-size($font-size-5);
-	line-height:$line-heights-0;
-	margin-bottom: $size-s+px;
+	@include font-size($fontSize5);
+	line-height:$lineHeights0;
+	margin-bottom: $sizeS;
 }
 
 button.iconOnly{
@@ -28,6 +28,6 @@ button.iconOnly{
 	padding: 0;
 	margin: 0;
 	border: none;
-	width: $size-l; height: $size-l;
+	width: $sizeL; height: $sizeL;
 	cursor:pointer;
 }
