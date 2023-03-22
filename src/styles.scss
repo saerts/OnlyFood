@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "reset";
+@import "fonts";
 @import "variables";
 @import "functions";
 
@@ -11,14 +12,15 @@ body {
 	-webkit-overflow-scrolling: touch;
 	height: 100%;
 	margin: 0;
-	font-family: $font-families-poppins, "Helvetica Neue", sans-serif;
+	font-family: Poppins, "Helvetica Neue", sans-serif;
+	font-weight: 400;
 }
 
 h2{
-	font-weight: 900;
+	font-weight: 700;
 	@include font-size($font-size-5);
 	line-height:$line-heights-0;
-	margin-bottom:  $spacing-s;
+	margin-bottom: $size-s+px;
 }
 
 button.iconOnly{
@@ -26,6 +28,6 @@ button.iconOnly{
 	padding: 0;
 	margin: 0;
 	border: none;
-	width: 24px; height: 24px;
+	width: $size-l; height: $size-l;
 	cursor:pointer;
 }
