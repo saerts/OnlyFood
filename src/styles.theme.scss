@@ -4,6 +4,8 @@
 	$primary: map-get($theme, primary);
 
 	app-root{
-		color: mat-color($accent, neutral-100);
+		color: mat-color($accent, background-text);
+
+		h2{color: mat-color($primary, primary-50)}
 	}
 }

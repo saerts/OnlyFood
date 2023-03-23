@@ -1,11 +1,11 @@
 @import "@angular/material/theming";
 @import "variables";
-$food-primary: (
+$blue-primary: (
 	primary-10:$light-primary-10,
 	primary-20:$light-primary-20,
 	primary-30:$light-primary-30,
 	primary-40:$light-primary-40,
-	primary-50:$light-primary-50,
+	primary-50:blue,
 	primary-60:$light-primary-60,
 	primary-70:$light-primary-70,
 	primary-80:$light-primary-80,
@@ -38,12 +38,12 @@ $food-primary: (
 		A700: #000000,
 	),
 );
-$food-dark-primary: (
+$blue-dark-primary: (
 	primary-10:$dark-primary-10,
 	primary-20:$dark-primary-20,
 	primary-30:$dark-primary-30,
 	primary-40:$dark-primary-40,
-	primary-50:$dark-primary-50,
+	primary-50:blue,
 	primary-60:$dark-primary-60,
 	primary-70:$dark-primary-70,
 	primary-80:$dark-primary-80,
@@ -76,7 +76,7 @@ $food-dark-primary: (
 		A700: #000000,
 	),
 );
-$food-accent: (
+$blue-accent: (
 	neutral-10:$light-neutral-10,
 	neutral-20:$light-neutral-20,
 	neutral-30:$light-neutral-30,
@@ -106,7 +106,7 @@ $food-accent: (
 		A700: #000000,
 	),
 );
-$food-dark-accent: (
+$blue-dark-accent: (
 	neutral-10:$dark-neutral-10,
 	neutral-20:$dark-neutral-20,
 	neutral-30:$dark-neutral-30,
@@ -136,37 +136,37 @@ $food-dark-accent: (
 		A700: #000000,
 	),
 );
-$food-app-primary: mat-palette($food-primary, primary);
-$food-app-accent: mat-palette($food-accent, accent);
+$blue-app-primary: mat-palette($blue-primary, primary);
+$blue-app-accent: mat-palette($blue-accent, accent);
 //dark
-$food-app-dark-primary: mat-palette($food-dark-primary, primary);
-$food-app-dark-accent: mat-palette($food-dark-accent, accent);
+$blue-app-dark-primary: mat-palette($blue-dark-primary, primary);
+$blue-app-dark-accent: mat-palette($blue-dark-accent, accent);
 // The warn palette is optional (defaults to red).
-// $food-app-warn: mat-palette($food-forklift-red);
+// $blue-app-warn: mat-palette($blue-forklift-red);
 // Create the theme object (a Sass map containing all of the palettes).
-$food-app-theme: mat-light-theme($food-app-primary, $food-app-accent);
+$blue-app-theme: mat-light-theme($blue-app-primary, $blue-app-accent);
 // dark
-$food-app-dark-theme: mat-dark-theme(
-		$food-app-dark-primary,
-		$food-app-dark-accent
+$blue-app-dark-theme: mat-dark-theme(
+		$blue-app-dark-primary,
+		$blue-app-dark-accent
 );
 @mixin theme {
 	@include apply-theme();
-	.food {
-		@include angular-material-theme($food-app-theme);
-		@content ($food-app-theme);
+	.blue {
+		@include angular-material-theme($blue-app-theme);
+		@content ($blue-app-theme);
 		// dark
 		&.dark-theme {
-			@include angular-material-theme($food-app-dark-theme);
-			@content ($food-app-dark-theme);
+			@include angular-material-theme($blue-app-dark-theme);
+			@content ($blue-app-dark-theme);
 		}
 	}
 }
 @mixin apply-theme {
-	.food {
-		@content ($food-app-theme);
+	.blue {
+		@content ($blue-app-theme);
 		&.light-theme {
-			@content ($food-app-dark-theme);
+			@content ($blue-app-dark-theme);
 		}
 	}
 }

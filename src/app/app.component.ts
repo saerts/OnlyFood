@@ -46,6 +46,10 @@ export class AppComponent {
   }*/
 
   darkmode = false;
+  changeTheme(theme: string) {
+    document.body.classList.remove('food', 'blue');
+    document.body.classList.add(theme);
+  }
 
   changeBrand(theme: MatSlideToggleChange) {
     document.body.classList.remove('dark-theme', 'light-theme');

@@ -1,3 +1,15 @@
+<div>
+	<mat-form-field>
+		<mat-label>Brand</mat-label>
+		<mat-select value="value">
+			<mat-option (click)="changeTheme('food')" value="Food">Food</mat-option>
+			<mat-option (click)="changeTheme('blue')" value="Blue">Blue</mat-option>
+		</mat-select>
+	</mat-form-field>
+	<div>
+		<mat-slide-toggle [checked]="darkmode" (change)="changeBrand($event)">Dark mode</mat-slide-toggle>
+	</div>
+</div>
 <div class="fakeFrame">
 	<app-top-nav></app-top-nav>
 	<app-recipe *ngFor="let item of recipe" [recipe]="item"></app-recipe>
@@ -7,8 +19,6 @@
 		<option value="theme&#45;&#45;dark">Dark</option>
 	</select>-->
 	
-	<div>
-		<mat-slide-toggle [checked]="darkmode" (change)="changeBrand($event)">Dark mode</mat-slide-toggle>
-	</div>
+	
 </div>
 
