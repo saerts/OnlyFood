@@ -57,6 +57,10 @@
         "value": "#000000",
         "type": "color",
         "description": "FFFFFF"
+      },
+      "background-text": {
+        "value": "rgba(255,255,255,0.82)",
+        "type": "color"
       }
     },
     "Primary": {

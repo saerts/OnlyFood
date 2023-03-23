@@ -57,6 +57,10 @@
         "value": "#ffffff",
         "type": "color",
         "description": "FFFFFF"
+      },
+      "background-text": {
+        "value": "#242424",
+        "type": "color"
       }
     },
     "Primary": {
