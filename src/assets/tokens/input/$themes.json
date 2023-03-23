@@ -1,17 +1,18 @@
 [
   {
-    "id": "91856c5b00189a6c2590391dccc11886b0b1fe77",
-    "name": "Light",
+    "id": "e490f3501097cbaa012e99fbcc66bf45f6f211e3",
+    "name": "Dark",
     "selectedTokenSets": {
-      "tokens": "enabled"
+      "_core": "source",
+      "dark": "enabled"
     },
     "$figmaStyleReferences": {}
   },
   {
-    "id": "e490f3501097cbaa012e99fbcc66bf45f6f211e3",
-    "name": "Dark",
+    "id": "91856c5b00189a6c2590391dccc11886b0b1fe77",
+    "name": "Light",
     "selectedTokenSets": {
-      "tokens": "enabled"
+      "_core": "source"
     },
     "$figmaStyleReferences": {}
   }
