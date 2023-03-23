@@ -1,0 +1,61 @@
+@import "variables";
+$neutral-10: #f1f1f1;
+$neutral-20: #d9d9d9;
+$neutral-30: #c1c1c1;
+$neutral-40: #a9a9a9;
+$neutral-50: #919191;
+$neutral-60: #797979;
+$neutral-70: #606060;
+$neutral-80: #484848;
+$neutral-90: #303030;
+$neutral-100: #181818;
+$themes: (
+	light: (
+		$neutral-10: $light-neutral-10,
+		$neutral-20: $light-neutral-20,
+		$neutral-30: $light-neutral-30,
+		$neutral-40: $light-neutral-40,
+		$neutral-50: $light-neutral-50,
+		$neutral-60: $light-neutral-60,
+		$neutral-70: $light-neutral-70,
+		$neutral-80: $light-neutral-80,
+		$neutral-90: $light-neutral-90,
+		$neutral-100: $light-neutral-100,
+		$background-0: $light-background-0,
+	),
+	dark: (
+		$neutral-10: $dark-neutral-10,
+		$neutral-20: $dark-neutral-20,
+		$neutral-30: $dark-neutral-30,
+		$neutral-40: $dark-neutral-40,
+		$neutral-50: $dark-neutral-50,
+		$neutral-60: $dark-neutral-60,
+		$neutral-70: $dark-neutral-70,
+		$neutral-80: $dark-neutral-80,
+		$neutral-90: $dark-neutral-90,
+		$neutral-100: $dark-neutral-100,
+		$background-0: $dark-background-0,
+	),
+);
+
+
+/*
+ * Implementation of themes
+ */
+@mixin themed() {
+	@each $theme, $map in $themes {
+		.theme--#{$theme} & {
+			$theme-map: () !global;
+			@each $key, $submap in $map {
+				$value: map-get(map-get($themes, $theme), '#{$key}');
+				$theme-map: map-merge($theme-map, ($key: $value)) !global;
+			}
+			@content;
+			$theme-map: null !global;
+		}
+	}
+}
+
+@function t($key) {
+	@return map-get($theme-map, $key);
+}

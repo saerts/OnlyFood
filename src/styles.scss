@@ -3,6 +3,7 @@
 @import "fonts";
 @import "variables";
 @import "functions";
+@import "themes";
 
 html {
 	height: 100%;
@@ -18,9 +19,9 @@ body {
 
 h2{
 	font-weight: 700;
-	@include font-size($fontSize5);
-	line-height:$lineHeights0;
-	margin-bottom: $sizeS;
+	@include font-size($font-size-5);
+	line-height:$line-heights-0;
+	margin-bottom: $size-s;
 }
 
 button.iconOnly{
@@ -28,6 +29,10 @@ button.iconOnly{
 	padding: 0;
 	margin: 0;
 	border: none;
-	width: $sizeL; height: $sizeL;
+	width: $size-l; height: $size-l;
 	cursor:pointer;
+}
+
+.fakeFrame{
+
 }

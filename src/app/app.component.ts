@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {Recipe} from "./recipes/recipe/recipe";
 
 
@@ -11,7 +11,6 @@ export class AppComponent {
   title = 'OnlyFood';
 
   recipe: Recipe[] = [
-
     {
       "title": "Spaghetti Carbonara",
       "category": "Pasta",
@@ -30,8 +29,20 @@ export class AppComponent {
       "rating": 3,
       "ratingKids": 1
     },
+  ];
+ 
 
-  ]
+  
+
+  public theme: string | undefined = 'theme--light';
+  public select: string | undefined;
+  @Input() dark: boolean = false;
+
+
+  public changeTheme($event: Event): void {
+    this.theme = this.select;
+      this.dark = this.theme !== "theme--light";
+  }
 
   ngOnInit() {
 
