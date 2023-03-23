@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { RecipeComponent } from './recipes/recipe/recipe.component';
 import {TopNavComponent} from "./top-nav/top-nav.component";
 import {FormsModule} from "@angular/forms";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import {FormsModule} from "@angular/forms";
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

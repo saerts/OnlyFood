@@ -1,0 +1,11 @@
+@import '@angular/material/theming';
+@import "variables";
+
+@mixin app-styles($theme) {
+	$accent: map-get($theme, accent);
+	$primary: map-get($theme, primary);
+
+	.fakeFrame{
+		background: mat-color($accent, accent) ;
+	}
+}

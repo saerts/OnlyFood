@@ -1,10 +1,14 @@
-<div class="fakeFrame" [ngClass]="dark ? 'theme--dark' : 'theme--light'" >
+<div class="fakeFrame">
 	<app-top-nav></app-top-nav>
 	<app-recipe *ngFor="let item of recipe" [recipe]="item"></app-recipe>
-	<select class="custom-select" [(ngModel)]='select' (change)="changeTheme($event)">
+	<!--<select class="custom-select" [(ngModel)]='select' (change)="changeTheme($event)">
 		<option selected>Choose Theme...</option>
-		<option value="theme--light">Light</option>
-		<option value="theme--dark">Dark</option>
-	</select>
+		<option value="theme&#45;&#45;light">Light</option>
+		<option value="theme&#45;&#45;dark">Dark</option>
+	</select>-->
+	
+	<div>
+		<mat-slide-toggle [checked]="darkmode" (change)="changeBrand($event)">Dark mode</mat-slide-toggle>
+	</div>
 </div>
 

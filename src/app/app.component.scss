@@ -5,8 +5,4 @@
 	max-width: 375px;
 	margin: 36px auto;
 
-	@include themed() {
-		background: t($neutral-30);
-
-	}
 }

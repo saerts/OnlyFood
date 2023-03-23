@@ -1,5 +1,6 @@
 import {Component, Input} from '@angular/core';
 import {Recipe} from "./recipes/recipe/recipe";
+import {MatSlideToggleChange} from "@angular/material/slide-toggle";
 
 
 @Component({
@@ -34,7 +35,7 @@ export class AppComponent {
 
   
 
-  public theme: string | undefined = 'theme--light';
+ /* public theme: string | undefined = 'theme--light';
   public select: string | undefined;
   @Input() dark: boolean = false;
 
@@ -42,6 +43,18 @@ export class AppComponent {
   public changeTheme($event: Event): void {
     this.theme = this.select;
       this.dark = this.theme !== "theme--light";
+  }*/
+
+  darkmode = false;
+
+  changeBrand(theme: MatSlideToggleChange) {
+    document.body.classList.remove('dark-theme', 'light-theme');
+    if(theme.checked){
+      document.body.classList.add('dark-theme');
+    }
+    else{
+      document.body.classList.add('light-theme');
+    }
   }
 
   ngOnInit() {

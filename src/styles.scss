@@ -1,9 +1,14 @@
+@use "app/_partials/themes";
+@include themes.themes(); //include the themes for the core ui components
+@include themes.apply-themes using($theme) {
+}
+
+
 /* You can add global styles to this file, and also import other style files */
 @import "reset";
 @import "fonts";
 @import "variables";
 @import "functions";
-@import "themes";
 
 html {
 	height: 100%;

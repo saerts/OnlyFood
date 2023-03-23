@@ -1,0 +1,6 @@
+@import "app.component.theme";
+
+@mixin public-component-themes($theme) {
+
+	@include app-styles($theme);
+}
