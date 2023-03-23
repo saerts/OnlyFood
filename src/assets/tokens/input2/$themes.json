@@ -3,6 +3,7 @@
     "id": "91856c5b00189a6c2590391dccc11886b0b1fe77",
     "name": "Light",
     "selectedTokenSets": {
+      "Light": "enabled",
       "tokens": "enabled"
     },
     "$figmaStyleReferences": {}
@@ -11,6 +12,7 @@
     "id": "e490f3501097cbaa012e99fbcc66bf45f6f211e3",
     "name": "Dark",
     "selectedTokenSets": {
+      "Dark": "enabled",
       "tokens": "enabled"
     },
     "$figmaStyleReferences": {}
