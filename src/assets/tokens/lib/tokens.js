@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 23 Mar 2023 08:47:32 GMT
+ * Generated on Thu, 23 Mar 2023 14:39:16 GMT
  */
 
 export const DarkNeutral10 = "#181818";
@@ -14,6 +14,7 @@ export const DarkNeutral80 = "#c1c1c1";
 export const DarkNeutral90 = "#d9d9d9";
 export const DarkNeutral100 = "#f1f1f1";
 export const DarkBackground0 = "#000000";
+export const DarkBackgroundText = "rgba(255,255,255,0.82)";
 export const DarkPrimary0 = "#fcecec";
 export const DarkPrimary10 = "#f9d8d8";
 export const DarkPrimary20 = "#f3b2b2";
@@ -54,6 +55,7 @@ export const LightNeutral80 = "#484848";
 export const LightNeutral90 = "#303030";
 export const LightNeutral100 = "#181818";
 export const LightBackground0 = "#ffffff";
+export const LightBackgroundText = "#242424";
 export const LightPrimary0 = "#fcecec";
 export const LightPrimary10 = "#f9d8d8";
 export const LightPrimary20 = "#f3b2b2";
