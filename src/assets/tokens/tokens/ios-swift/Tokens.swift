@@ -4,14 +4,53 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 24 Mar 2023 11:48:30 GMT
+// Generated on Fri, 24 Mar 2023 14:30:32 GMT
 
 
 import UIKit
 
 public class Tokens {
     public static let background0 = #ffffff
-    public static let backgroundText = #ffffffd1
+    public static let darkBackground0 = #c90303
+    public static let darkError10 = #fde7eb
+    public static let darkError100 = #ee1133
+    public static let darkGreen10 = #ceecd7
+    public static let darkGreen100 = #31b057
+    public static let darkNeutral10 = #181818
+    public static let darkNeutral100 = #f1f1f1
+    public static let darkNeutral20 = #303030
+    public static let darkNeutral30 = #484848
+    public static let darkNeutral40 = #606060
+    public static let darkNeutral50 = #797979
+    public static let darkNeutral60 = #919191
+    public static let darkNeutral70 = #a9a9a9
+    public static let darkNeutral80 = #c1c1c1
+    public static let darkNeutral90 = #d9d9d9
+    public static let darkPrimary0 = #fcecec
+    public static let darkPrimary10 = #f9d8d8
+    public static let darkPrimary100 = #711f1f
+    public static let darkPrimary20 = #f3b2b2
+    public static let darkPrimary30 = #ee8b8b
+    public static let darkPrimary40 = #e86565
+    public static let darkPrimary50 = #e23e3e
+    public static let darkPrimary60 = #cb3838
+    public static let darkPrimary70 = #b53232
+    public static let darkPrimary80 = #9e2b2b
+    public static let darkPrimary90 = #882525
+    public static let darkRating100 = #ffb661
+    public static let darkSecondary0 = #fff5e6
+    public static let darkSecondary10 = #ffe1b3
+    public static let darkSecondary100 = #804e00
+    public static let darkSecondary20 = #ffce80
+    public static let darkSecondary30 = #ffba4d
+    public static let darkSecondary40 = #ffa61a
+    public static let darkSecondary50 = #ff9c00
+    public static let darkSecondary60 = #e68c00
+    public static let darkSecondary70 = #cc7d00
+    public static let darkSecondary80 = #b36d00
+    public static let darkSecondary90 = #995e00
+    public static let darkSuccess10 = #ceecd7
+    public static let darkSuccess100 = #31b057
     public static let error10 = #fde7eb
     public static let error100 = #ee1133
     public static let fontFamiliesPoppins = Poppins

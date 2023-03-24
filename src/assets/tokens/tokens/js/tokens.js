@@ -1,8 +1,48 @@
 /**
  * Do not edit directly
- * Generated on Fri, 24 Mar 2023 11:48:29 GMT
+ * Generated on Fri, 24 Mar 2023 14:30:32 GMT
  */
 
+export const DarkNeutral10 = "#181818";
+export const DarkNeutral20 = "#303030";
+export const DarkNeutral30 = "#484848";
+export const DarkNeutral40 = "#606060";
+export const DarkNeutral50 = "#797979";
+export const DarkNeutral60 = "#919191";
+export const DarkNeutral70 = "#a9a9a9";
+export const DarkNeutral80 = "#c1c1c1";
+export const DarkNeutral90 = "#d9d9d9";
+export const DarkNeutral100 = "#f1f1f1";
+export const DarkBackground0 = "#c90303";
+export const DarkPrimary0 = "#fcecec";
+export const DarkPrimary10 = "#f9d8d8";
+export const DarkPrimary20 = "#f3b2b2";
+export const DarkPrimary30 = "#ee8b8b";
+export const DarkPrimary40 = "#e86565";
+export const DarkPrimary50 = "#e23e3e";
+export const DarkPrimary60 = "#cb3838";
+export const DarkPrimary70 = "#b53232";
+export const DarkPrimary80 = "#9e2b2b";
+export const DarkPrimary90 = "#882525";
+export const DarkPrimary100 = "#711f1f";
+export const DarkSecondary0 = "#fff5e6";
+export const DarkSecondary10 = "#ffe1b3";
+export const DarkSecondary20 = "#ffce80";
+export const DarkSecondary30 = "#ffba4d";
+export const DarkSecondary40 = "#ffa61a";
+export const DarkSecondary50 = "#ff9c00";
+export const DarkSecondary60 = "#e68c00";
+export const DarkSecondary70 = "#cc7d00";
+export const DarkSecondary80 = "#b36d00";
+export const DarkSecondary90 = "#995e00";
+export const DarkSecondary100 = "#804e00";
+export const DarkRating100 = "#ffb661";
+export const DarkError10 = "#fde7eb";
+export const DarkError100 = "#ee1133";
+export const DarkSuccess10 = "#ceecd7";
+export const DarkSuccess100 = "#31b057";
+export const DarkGreen10 = "#ceecd7";
+export const DarkGreen100 = "#31b057";
 export const Neutral10 = "#f1f1f1";
 export const Neutral20 = "#d9d9d9";
 export const Neutral30 = "#c1c1c1";
@@ -14,7 +54,6 @@ export const Neutral80 = "#484848";
 export const Neutral90 = "#303030";
 export const Neutral100 = "#181818";
 export const Background0 = "#ffffff";
-export const BackgroundText = "#ffffffd1";
 export const Primary0 = "#fcecec";
 export const Primary10 = "#f9d8d8";
 export const Primary20 = "#f3b2b2";
