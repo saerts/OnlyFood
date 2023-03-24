@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "_core",
-    "dark"
+    "dark",
+    "light"
   ]
 }
