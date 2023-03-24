@@ -5,9 +5,9 @@ const StyleDictionaryPackage = require('style-dictionary');
 function getStyleDictionaryConfig(brand, platform) {
   return {
     "source": [
-      `tokens/brands/${brand}/*.json`,
-      "tokens/globals/**/*.json",
-      `tokens/platforms/${platform}/*.json`
+      `input/brands/${brand}/*.json`,
+      "input/globals/**/*.json",
+      `input/platforms/${platform}/*.json`
     ],
     "platforms": {
       "web": {
@@ -48,14 +48,13 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['brand-1', 'brand-2', 'brand-3'].map(function (brand) {
-  ['web', 'ios', 'android'].map(function (platform) {
+['light', 'dark'].map(function (brand) {
+  ['web'].map(function (platform) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${platform}] [${brand}]`);
 
     const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(brand, platform));
-
     StyleDictionary.buildPlatform(platform);
 
     console.log('\nEnd processing');

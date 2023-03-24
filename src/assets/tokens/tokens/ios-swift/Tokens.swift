@@ -4,14 +4,14 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 24 Mar 2023 10:13:39 GMT
+// Generated on Fri, 24 Mar 2023 11:48:30 GMT
 
 
 import UIKit
 
 public class Tokens {
-    public static let background0 = #000000
-    public static let backgroundText = rgba(255,255,255,0.82)
+    public static let background0 = #ffffff
+    public static let backgroundText = #ffffffd1
     public static let error10 = #fde7eb
     public static let error100 = #ee1133
     public static let fontFamiliesPoppins = Poppins
@@ -33,16 +33,16 @@ public class Tokens {
     public static let lineHeights0 = 120%
     public static let lineHeights1 = 140%
     public static let lineHeights2 = AUTO
-    public static let neutral10 = #181818
-    public static let neutral100 = #f1f1f1
-    public static let neutral20 = #303030
-    public static let neutral30 = #484848
-    public static let neutral40 = #606060
-    public static let neutral50 = #797979
-    public static let neutral60 = #919191
-    public static let neutral70 = #a9a9a9
-    public static let neutral80 = #c1c1c1
-    public static let neutral90 = #d9d9d9
+    public static let neutral10 = #f1f1f1
+    public static let neutral100 = #181818
+    public static let neutral20 = #d9d9d9
+    public static let neutral30 = #c1c1c1
+    public static let neutral40 = #a9a9a9
+    public static let neutral50 = #919191
+    public static let neutral60 = #797979
+    public static let neutral70 = #606060
+    public static let neutral80 = #484848
+    public static let neutral90 = #303030
     public static let paragraphIndent0 = 0px
     public static let paragraphSpacing0 = 0
     public static let poppinsH1Bold = [object Object]

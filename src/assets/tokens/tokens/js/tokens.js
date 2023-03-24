@@ -1,20 +1,20 @@
 /**
  * Do not edit directly
- * Generated on Fri, 24 Mar 2023 10:13:39 GMT
+ * Generated on Fri, 24 Mar 2023 11:48:29 GMT
  */
 
-export const Neutral10 = "#181818";
-export const Neutral20 = "#303030";
-export const Neutral30 = "#484848";
-export const Neutral40 = "#606060";
-export const Neutral50 = "#797979";
-export const Neutral60 = "#919191";
-export const Neutral70 = "#a9a9a9";
-export const Neutral80 = "#c1c1c1";
-export const Neutral90 = "#d9d9d9";
-export const Neutral100 = "#f1f1f1";
-export const Background0 = "#000000";
-export const BackgroundText = "rgba(255,255,255,0.82)";
+export const Neutral10 = "#f1f1f1";
+export const Neutral20 = "#d9d9d9";
+export const Neutral30 = "#c1c1c1";
+export const Neutral40 = "#a9a9a9";
+export const Neutral50 = "#919191";
+export const Neutral60 = "#797979";
+export const Neutral70 = "#606060";
+export const Neutral80 = "#484848";
+export const Neutral90 = "#303030";
+export const Neutral100 = "#181818";
+export const Background0 = "#ffffff";
+export const BackgroundText = "#ffffffd1";
 export const Primary0 = "#fcecec";
 export const Primary10 = "#f9d8d8";
 export const Primary20 = "#f3b2b2";
