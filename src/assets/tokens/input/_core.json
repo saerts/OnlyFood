@@ -629,5 +629,27 @@
       "value": "40",
       "type": "spacing"
     }
+  },
+  "radius": {
+    "s": {
+      "value": "4",
+      "type": "borderRadius",
+      "description": "4px"
+    },
+    "m": {
+      "value": "8",
+      "type": "borderRadius",
+      "description": "8px"
+    },
+    "l": {
+      "value": "12",
+      "type": "borderRadius",
+      "description": "12px"
+    },
+    "xl": {
+      "value": "16px",
+      "type": "borderRadius",
+      "description": "16px"
+    }
   }
 }
