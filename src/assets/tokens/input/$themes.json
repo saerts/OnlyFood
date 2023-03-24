@@ -1,19 +1,10 @@
 [
   {
-    "id": "91856c5b00189a6c2590391dccc11886b0b1fe77",
-    "name": "Light",
-    "selectedTokenSets": {
-      "_core": "source",
-      "light": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
     "id": "e490f3501097cbaa012e99fbcc66bf45f6f211e3",
     "name": "Dark",
     "selectedTokenSets": {
-      "_core": "source",
-      "dark": "enabled"
+      "brands/dark/dark": "enabled",
+      "globals/_core": "source"
     },
     "$figmaStyleReferences": {
       "Neutral.10": "S:a22989d9346e77b19defaddc6b18ed93a5fa50d9,",
@@ -57,6 +48,17 @@
       "Success.100": "S:4c6c08fa9a82d26f3b047b2bf846b879bab65ce6,",
       "Green.10": "S:228eb55b1f6fe641fc99c1c658fd043f74f73476,",
       "Green.100": "S:728c632fcd4130e4b14c43adf37c1a12860db24b,"
+    }
+  },
+  {
+    "id": "91856c5b00189a6c2590391dccc11886b0b1fe77",
+    "name": "Light",
+    "selectedTokenSets": {
+      "brands/light/light": "enabled",
+      "globals/_core": "source"
+    },
+    "$figmaStyleReferences": {
+      "Background.text": "S:d388950042d1e65de54cca63f3e7ba55ab5aad16,"
     }
   }
 ]
