@@ -1,7 +1,6 @@
 {
   "tokenSetOrder": [
-    "brands/dark/dark",
-    "brands/light/light",
+    "dark",
     "globals/_core"
   ]
 }

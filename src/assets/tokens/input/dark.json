@@ -1,65 +1,61 @@
 {
   "Neutral": {
     "10": {
-      "value": "#f1f1f1",
+      "value": "#181818",
       "type": "color",
-      "description": "F1F1F1"
+      "description": "181818"
     },
     "20": {
-      "value": "#d9d9d9",
-      "type": "color",
-      "description": "D9D9D9"
-    },
-    "30": {
-      "value": "#c1c1c1",
-      "type": "color",
-      "description": "C1C1C1"
-    },
-    "40": {
-      "value": "#a9a9a9",
-      "type": "color",
-      "description": "A9A9A9"
-    },
-    "50": {
-      "value": "#919191",
-      "type": "color",
-      "description": "919191"
-    },
-    "60": {
-      "value": "#797979",
-      "type": "color",
-      "description": "797979"
-    },
-    "70": {
-      "value": "#606060",
-      "type": "color",
-      "description": "606060"
-    },
-    "80": {
-      "value": "#484848",
-      "type": "color",
-      "description": "484848"
-    },
-    "90": {
       "value": "#303030",
       "type": "color",
       "description": "303030"
     },
-    "100": {
-      "value": "#181818",
+    "30": {
+      "value": "#484848",
       "type": "color",
-      "description": "181818"
+      "description": "484848"
+    },
+    "40": {
+      "value": "#606060",
+      "type": "color",
+      "description": "606060"
+    },
+    "50": {
+      "value": "#797979",
+      "type": "color",
+      "description": "797979"
+    },
+    "60": {
+      "value": "#919191",
+      "type": "color",
+      "description": "919191"
+    },
+    "70": {
+      "value": "#a9a9a9",
+      "type": "color",
+      "description": "A9A9A9"
+    },
+    "80": {
+      "value": "#c1c1c1",
+      "type": "color",
+      "description": "C1C1C1"
+    },
+    "90": {
+      "value": "#d9d9d9",
+      "type": "color",
+      "description": "D9D9D9"
+    },
+    "100": {
+      "value": "#f1f1f1",
+      "type": "color",
+      "description": "F1F1F1"
     }
   },
   "Background": {
     "0": {
-      "value": "#ffffff",
+      "value": "#c90303",
       "type": "color",
       "description": "FFFFFF"
-    },
-    "text": {
-      "value": "#ffffffd1",
-      "type": "color"
     }
   },
   "Primary": {
