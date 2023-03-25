@@ -5,7 +5,8 @@
     "selectedTokenSets": {
       "globals/font/index": "enabled",
       "globals/size/font": "enabled",
-      "brands/brand-2/color": "enabled"
+      "brands/brand-2/color": "enabled",
+      "globals/spacing/spacing": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -15,7 +16,8 @@
     "selectedTokenSets": {
       "globals/font/index": "enabled",
       "globals/size/font": "enabled",
-      "brands/brand-3/color": "enabled"
+      "brands/brand-3/color": "enabled",
+      "globals/spacing/spacing": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -25,7 +27,8 @@
     "selectedTokenSets": {
       "brands/brand-1/color": "enabled",
       "globals/font/index": "enabled",
-      "globals/size/font": "enabled"
+      "globals/size/font": "enabled",
+      "globals/spacing/spacing": "enabled"
     },
     "$figmaStyleReferences": {
       "color.font.base": "S:997f65a63c0d14e87e4006c10dd95004b750bb79,",
@@ -64,7 +67,8 @@
     "selectedTokenSets": {
       "globals/font/index": "enabled",
       "globals/size/font": "enabled",
-      "brands/brand-2-dark/color": "enabled"
+      "brands/brand-2-dark/color": "enabled",
+      "globals/spacing/spacing": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -74,7 +78,8 @@
     "selectedTokenSets": {
       "brands/brand-1-dark/color": "enabled",
       "globals/font/index": "enabled",
-      "globals/size/font": "enabled"
+      "globals/size/font": "enabled",
+      "globals/spacing/spacing": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -84,7 +89,8 @@
     "selectedTokenSets": {
       "brands/brand-3-dark/color": "enabled",
       "globals/font/index": "enabled",
-      "globals/size/font": "enabled"
+      "globals/size/font": "enabled",
+      "globals/spacing/spacing": "enabled"
     },
     "$figmaStyleReferences": {}
   }

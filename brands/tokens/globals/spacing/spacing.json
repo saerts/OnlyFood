@@ -1,13 +1,24 @@
 {
   "spacing": {
-    "m": {
-      "value": "16",
+    "xs": {
+      "value": "4",
       "type": "spacing"
     },
     "s": {
       "value": "8",
       "type": "spacing"
+    },
+    "m": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "l": {
+      "value": "{spacing.s}*2",
+      "type": "spacing"
+    },
+    "xl": {
+      "value": "{spacing.m}*2",
+      "type": "spacing"
     }
   }
 }
-
