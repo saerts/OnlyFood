@@ -48,7 +48,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['brand-1', 'brand-2', 'brand-3'].map(function (brand) {
+['brand-1', 'brand-2', 'brand-3', 'brand-1-dark', 'brand-2-dark', 'brand-3-dark'].map(function (brand) {
   ['web', 'ios', 'android'].map(function (platform) {
 
     console.log('\n==============================================');
