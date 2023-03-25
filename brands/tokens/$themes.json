@@ -1,0 +1,62 @@
+[
+  {
+    "id": "91856c5b00189a6c2590391dccc11886b0b1fe77",
+    "name": "Light",
+    "selectedTokenSets": {
+      "globals/_core": "source"
+    },
+    "$figmaStyleReferences": {
+      "Background.text": "S:d388950042d1e65de54cca63f3e7ba55ab5aad16,"
+    }
+  },
+  {
+    "id": "e490f3501097cbaa012e99fbcc66bf45f6f211e3",
+    "name": "Dark",
+    "selectedTokenSets": {
+      "globals/_core": "source"
+    },
+    "$figmaStyleReferences": {
+      "Neutral.10": "S:a22989d9346e77b19defaddc6b18ed93a5fa50d9,",
+      "Neutral.20": "S:3d2c3e49a8ba015e065e3979285a482ed8f40208,",
+      "Neutral.30": "S:a6a27cdb0af55f43ff889806a1e61f9e1a968026,",
+      "Neutral.40": "S:e68e3517d7853b4edcd78e3ce59e89e5eea7ea14,",
+      "Neutral.50": "S:c94f1add4dd9ee1a2802ad4cf0c80897f86836c5,",
+      "Neutral.60": "S:3242b9e56d173d0f4f2603ecd4db871e233834fd,",
+      "Neutral.70": "S:2ee5daf70c3f1160c880bd555c6163d0d3dc293b,",
+      "Neutral.80": "S:eec072888df1dd274f5770c982a881d6eea1af33,",
+      "Neutral.90": "S:1300a9663ccd8a2a5b50ee1176bc297db1285351,",
+      "Neutral.100": "S:5ee4a679d86ef638c1296f5934cf7bf83f47c478,",
+      "Background.0": "S:800409c62a0007183eb75fffeb02c883e8818123,",
+      "Background.text": "S:d388950042d1e65de54cca63f3e7ba55ab5aad16,",
+      "Primary.0": "S:e9c9f5bf7dfef41f295d13ceca05033e1293b267,",
+      "Primary.10": "S:59b910535a77efee8c20b1f5aa26b1f952cfae1d,",
+      "Primary.20": "S:459974ea47622abc6c5a572a2028952f2325b0e5,",
+      "Primary.30": "S:c3c5af4e8fa21400924f3b52cbf4c76232420af6,",
+      "Primary.40": "S:283e969005e235caef90cb583db4396b13bd3f16,",
+      "Primary.50": "S:5d53dab8b54331f30234d3550cf11ca038a27002,",
+      "Primary.60": "S:bb5fd3d3c7a014346864da3374d8592165023fc5,",
+      "Primary.70": "S:8dbd1a38b12bbff2474bf1278ddb2dfe1deb1037,",
+      "Primary.80": "S:b07944dc074c0d40682080000a6c3bdf04d0a8e7,",
+      "Primary.90": "S:ee1b29e8d48b3f090bee3f2cb22a8e30cab393d9,",
+      "Primary.100": "S:29ec641dbb23be71801932cc76046360b193fbad,",
+      "Secondary.0": "S:ab4cb5e796ea828c0655e63058b0a67eecb082a2,",
+      "Secondary.10": "S:e221744caa8fec4e9af6557fd8b2e571dfe87c4a,",
+      "Secondary.20": "S:1a6704ff5e0f9ea1c9cad8d62047225d98b94d32,",
+      "Secondary.30": "S:1f6d46ea3988c42ab7c25c847993de0a40c211f4,",
+      "Secondary.40": "S:466816573e99427f4251a89cc459749dcd4f2a84,",
+      "Secondary.50": "S:c6a93b19e6fedef0e6d4bb38339ab5dde1d91e49,",
+      "Secondary.60": "S:2e733afedad25f8d9e7e1a9bf23810ee5035e0d5,",
+      "Secondary.70": "S:26dfffa771cf164d6d0b9c56faac0b0367dcbeb9,",
+      "Secondary.80": "S:e38f364b188baf7aada4bbd324842bee714eb807,",
+      "Secondary.90": "S:4ce5bdd8f228be905a34283e0fedac38742333ad,",
+      "Secondary.100": "S:0898476399d2a9ec8f633aff7facb80c57ef80a6,",
+      "Rating.100": "S:2f769314a9401fac6b39cb12a869fa25fea556de,",
+      "Error.10": "S:13fe99b53dcf4b382beddf6d5882a40381c38e99,",
+      "Error.100": "S:b25a8c22c313b795fc06d83e7c8d746a855ca3ff,",
+      "Success.10": "S:7f3d5a19142c1752ae7184eeaaa7ebf9ad122db3,",
+      "Success.100": "S:4c6c08fa9a82d26f3b047b2bf846b879bab65ce6,",
+      "Green.10": "S:228eb55b1f6fe641fc99c1c658fd043f74f73476,",
+      "Green.100": "S:728c632fcd4130e4b14c43adf37c1a12860db24b,"
+    }
+  }
+]
