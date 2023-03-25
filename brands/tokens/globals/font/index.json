@@ -17,23 +17,44 @@
       }
     },
     "fontWeights": {
-      "poppins-0": {
+      "poppins-SemiBold": {
         "value": "SemiBold",
         "type": "fontWeights"
       },
-      "poppins-1": {
+      "poppins-Bold": {
         "value": "Bold",
+        "type": "fontWeights"
+      },
+      "poppins-Regular": {
+        "value": "regular",
         "type": "fontWeights"
       }
     },
     "fontSize": {
-      "0": {
-        "value": "20",
-        "type": "fontSizes"
+      "xs": {
+        "value": "12px",
+        "type": "fontSizes",
+        "description": "12px"
       },
-      "1": {
-        "value": "24",
-        "type": "fontSizes"
+      "s": {
+        "value": "14px",
+        "type": "fontSizes",
+        "description": "14px"
+      },
+      "m": {
+        "value": "16px",
+        "type": "fontSizes",
+        "description": "16px"
+      },
+      "l": {
+        "value": "20px",
+        "type": "fontSizes",
+        "description": "20px"
+      },
+      "xl": {
+        "value": "24px",
+        "type": "fontSizes",
+        "description": "24px"
       }
     },
     "letterSpacing": {
