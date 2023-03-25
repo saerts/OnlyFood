@@ -65,9 +65,9 @@
       },
       "background": {
         "0": {
-          "value": "#ffffff",
+          "value": "#000",
           "type": "color",
-          "description": "FFFFFF"
+          "description": "#000"
         }
       }
     }
