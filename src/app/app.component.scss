@@ -4,9 +4,20 @@
 	display:block;
 	width:100%;
 	height:auto;
-}
-.fakeFrame{
-	max-width: 375px;
-	margin: 36px auto;
+	box-sizing: border-box;
+
+
+	.fakeFrame{
+		max-width: 375px;
+		margin: 0 auto $spacing-xl;
+
+		.fakeSettings{
+			padding-bottom: $spacing-xl;
+			display:flex;
+			align-items:center;
+			justify-content:space-between;
+		}
+
+	}
 
 }

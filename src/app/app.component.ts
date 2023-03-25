@@ -47,7 +47,7 @@ export class AppComponent {
 
   darkmode = false;
   changeTheme(theme: string) {
-    document.body.classList.remove('food', 'blue');
+    document.body.classList.remove('brand-1', 'brand-2', 'brand-3');
     document.body.classList.add(theme);
   }
 

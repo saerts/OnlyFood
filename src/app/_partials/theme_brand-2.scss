@@ -1,0 +1,135 @@
+@use "../../assets/tokens-output/web/brand-2/tokens-brand-2" as light;
+@use "../../assets/tokens-output/web/brand-2-dark/tokens-brand-2-dark" as dark;
+@import "@angular/material/theming";
+
+$brand-2-primary: (
+	primary-10: light.$color-brand-primary,
+	contrast: (
+		50: #000000,
+		100: #000000,
+		200: #000000,
+		300: #000000,
+		400: #ffffff,
+		500: #ffffff,
+		600: #ffffff,
+		700: #ffffff,
+		800: #ffffff,
+		900: #ffffff,
+		A100: #000000,
+		A200: #000000,
+		A400: #000000,
+		A700: #000000,
+	),
+);
+$brand-2-dark-primary: (
+	primary-10: dark.$color-brand-primary,
+	contrast: (
+		50: #000000,
+		100: #000000,
+		200: #000000,
+		300: #000000,
+		400: #ffffff,
+		500: #ffffff,
+		600: #ffffff,
+		700: #ffffff,
+		800: #ffffff,
+		900: #ffffff,
+		A100: #000000,
+		A200: #000000,
+		A400: #000000,
+		A700: #000000,
+	),
+);
+$brand-2-accent: (
+	neutral-10:light.$color-accent-neutral-10,
+	neutral-20:light.$color-accent-neutral-20,
+	neutral-30:light.$color-accent-neutral-30,
+	neutral-40:light.$color-accent-neutral-40,
+	neutral-50:light.$color-accent-neutral-50,
+	neutral-60:light.$color-accent-neutral-60,
+	neutral-70:light.$color-accent-neutral-70,
+	neutral-80:light.$color-accent-neutral-80,
+	neutral-90:light.$color-accent-neutral-90,
+	neutral-100:light.$color-accent-neutral-100,
+	background-0: light.$color-accent-background-0,
+
+	contrast: (
+		50: #000000,
+		100: #000000,
+		200: #000000,
+		300: #000000,
+		400: #ffffff,
+		500: #ffffff,
+		600: #ffffff,
+		700: #ffffff,
+		800: #ffffff,
+		900: #ffffff,
+		A100: #000000,
+		A200: #000000,
+		A400: #000000,
+		A700: #000000,
+	),
+);
+$brand-2-dark-accent: (
+	neutral-10:dark.$color-accent-neutral-10,
+	neutral-20:dark.$color-accent-neutral-20,
+	neutral-30:dark.$color-accent-neutral-30,
+	neutral-40:dark.$color-accent-neutral-40,
+	neutral-50:dark.$color-accent-neutral-50,
+	neutral-60:dark.$color-accent-neutral-60,
+	neutral-70:dark.$color-accent-neutral-70,
+	neutral-80:dark.$color-accent-neutral-80,
+	neutral-90:dark.$color-accent-neutral-90,
+	neutral-100:dark.$color-accent-neutral-100,
+	background-0: light.$color-accent-background-0,
+	contrast: (
+		50: #000000,
+		100: #000000,
+		200: #000000,
+		300: #000000,
+		400: #ffffff,
+		500: #ffffff,
+		600: #ffffff,
+		700: #ffffff,
+		800: #ffffff,
+		900: #ffffff,
+		A100: #000000,
+		A200: #000000,
+		A400: #000000,
+		A700: #000000,
+	),
+);
+$brand-2-app-primary: mat-palette($brand-2-primary, primary);
+$brand-2-app-accent: mat-palette($brand-2-accent, accent);
+//dark
+$brand-2-app-dark-primary: mat-palette($brand-2-dark-primary, primary);
+$brand-2-app-dark-accent: mat-palette($brand-2-dark-accent, accent);
+// The warn palette is optional (defaults to red).
+// $brand-2-app-warn: mat-palette($brand-2-forklift-red);
+// Create the theme object (a Sass map containing all of the palettes).
+$brand-2-app-theme: mat-light-theme($brand-2-app-primary, $brand-2-app-accent);
+// dark
+$brand-2-app-dark-theme: mat-dark-theme(
+		$brand-2-app-dark-primary,
+		$brand-2-app-dark-accent
+);
+@mixin theme {
+	@include apply-theme();
+	.brand-2 {
+		@include angular-material-theme($brand-2-app-theme);
+		@content ($brand-2-app-theme);
+		// dark
+		&.dark-theme {
+			@include angular-material-theme($brand-2-app-dark-theme);
+			@content ($brand-2-app-dark-theme);
+		}
+	}
+}
+@mixin apply-theme {
+	.brand-2 {
+		@content ($brand-2-app-theme);
+		&.light-theme {
+			@content ($brand-2-app-dark-theme);
+		}
+	}
+}

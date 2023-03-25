@@ -8,6 +8,7 @@
 
 
 	.fakeFrame{
-		background: mat-color($accent, neutral-10);
+		background: mat-color($accent, background-0);
+		.fakeSettings{background: white;}
 	}
 }

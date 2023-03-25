@@ -4,23 +4,42 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 25 Mar 2023 19:59:14 GMT
+// Generated on Sat, 25 Mar 2023 20:18:53 GMT
 
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define ColorBrandPrimary [UIColor colorWithRed:0.918f green:0.263f blue:0.208f alpha:1.000f]
-#define ColorBrandSecondary [UIColor colorWithRed:0.949f green:0.435f blue:0.004f alpha:1.000f]
-#define ColorAccentNeutral10 [UIColor colorWithRed:0.945f green:0.945f blue:0.945f alpha:1.000f]
-#define ColorAccentNeutral20 [UIColor colorWithRed:0.851f green:0.851f blue:0.851f alpha:1.000f]
-#define ColorAccentNeutral30 [UIColor colorWithRed:0.757f green:0.757f blue:0.757f alpha:1.000f]
-#define ColorAccentNeutral40 [UIColor colorWithRed:0.663f green:0.663f blue:0.663f alpha:1.000f]
-#define ColorAccentNeutral50 [UIColor colorWithRed:0.569f green:0.569f blue:0.569f alpha:1.000f]
-#define ColorAccentNeutral60 [UIColor colorWithRed:0.475f green:0.475f blue:0.475f alpha:1.000f]
-#define ColorAccentNeutral70 [UIColor colorWithRed:0.376f green:0.376f blue:0.376f alpha:1.000f]
-#define ColorAccentNeutral80 [UIColor colorWithRed:0.282f green:0.282f blue:0.282f alpha:1.000f]
-#define ColorAccentNeutral90 [UIColor colorWithRed:0.188f green:0.188f blue:0.188f alpha:1.000f]
-#define ColorAccentNeutral100 [UIColor colorWithRed:0.094f green:0.094f blue:0.094f alpha:1.000f]
-#define ColorAccentBackground0 [UIColor colorWithRed:1.000f green:1.000f blue:1.000f alpha:1.000f]
+#define FontFontFamiliesPoppins @"Poppins"
+#define FontLineHeights0 @"120%"
+#define FontLineHeights1 @"140%"
+#define FontFontWeightsPoppinsSemiBold @"SemiBold"
+#define FontFontWeightsPoppinsBold @"Bold"
+#define FontFontWeightsPoppinsRegular @"regular"
+#define FontFontSizeXs @"12px"
+#define FontFontSizeS @"14px"
+#define FontFontSizeM @"16px"
+#define FontFontSizeL @"20px"
+#define FontFontSizeXl @"24px"
+#define FontLetterSpacing0 @"0%"
+#define FontParagraphSpacing0 @"0"
+#define FontTextCaseNone @"none"
+#define FontTextDecorationNone @"none"
+#define FontParagraphIndent0 @"0px"
+#define FontPlatformSystem @"San Francisco"
+#define RadiusXs 4px
+#define RadiusS 8px
+#define RadiusM 16px
+#define RadiusL 20px
+#define RadiusXl 24px
+#define SizeFontSmall 224.00f
+#define SizeFontMedium 16.00f
+#define SizeFontLarge 32.00f
+#define SizeFontBase 16.00f
+#define SpacingXs 4px
+#define SpacingS 8px
+#define SpacingM 16px
+#define SpacingL 8px*2
+#define SpacingXl 16px*2
+#define ButtonHeight 50px
 

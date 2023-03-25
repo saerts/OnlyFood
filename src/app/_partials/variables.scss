@@ -1,14 +1,18 @@
 
 // Do not edit directly
-// Generated on Sat, 25 Mar 2023 19:59:10 GMT
+// Generated on Sat, 25 Mar 2023 20:18:53 GMT
 
 $font-font-families-poppins: Poppins;
 $font-line-heights-0: 120%;
 $font-line-heights-1: 140%;
-$font-font-weights-poppins-0: SemiBold;
-$font-font-weights-poppins-1: Bold;
-$font-font-size-0: 20;
-$font-font-size-1: 24;
+$font-font-weights-poppins-semi-bold: SemiBold;
+$font-font-weights-poppins-bold: Bold;
+$font-font-weights-poppins-regular: regular;
+$font-font-size-xs: 12px;
+$font-font-size-s: 14px;
+$font-font-size-m: 16px;
+$font-font-size-l: 20px;
+$font-font-size-xl: 24px;
 $font-letter-spacing-0: 0%;
 $font-paragraph-spacing-0: 0;
 $font-text-case-none: none;
@@ -16,10 +20,10 @@ $font-text-decoration-none: none;
 $font-paragraph-indent-0: 0px;
 $font-platform-system: Poppins, Arial, 'Helvetica Neue', sans;
 $radius-xs: 4px;
-$radius-s: 8;
-$radius-m: 16;
-$radius-l: 8*2;
-$radius-xl: 16*2;
+$radius-s: 8px;
+$radius-m: 16px;
+$radius-l: 20px;
+$radius-xl: 24px;
 $size-font-small: 14px; // the small size of the font
 $size-font-medium: 1px; // the medium size of the font
 $size-font-large: 2px; // the large size of the font

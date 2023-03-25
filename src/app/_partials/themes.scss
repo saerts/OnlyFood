@@ -1,25 +1,31 @@
-
-@use 'theme_food' as food;
-@use 'theme_blue' as blue;
+@use 'theme_brand-1' as brand-1;
+@use 'theme_brand-2' as brand-2;
+@use 'theme_brand-3' as brand-3;
 
 @import '../public-components';
 @import '@angular/material/theming';
 
 @mixin themes {
 	@include mat-core();
-	@include food.theme using($theme) {
+	@include brand-1.theme using($theme) {
 		@include public-component-themes($theme);
 	}
-	@include blue.theme using($theme) {
+	@include brand-2.theme using($theme) {
+		@include public-component-themes($theme);
+	}
+	@include brand-3.theme using($theme) {
 		@include public-component-themes($theme);
 	}
 }
 
 @mixin apply-themes {
-	@include food.apply-theme using($theme) {
+	@include brand-1.apply-theme using($theme) {
 		@content ($theme);
 	}
-	@include blue.apply-theme using($theme) {
+	@include brand-2.apply-theme using($theme) {
+		@content ($theme);
+	}
+	@include brand-3.apply-theme using($theme) {
 		@content ($theme);
 	}
 }

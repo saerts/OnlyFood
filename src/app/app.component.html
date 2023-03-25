@@ -1,24 +1,19 @@
-<div>
-	<mat-form-field>
-		<mat-label>Brand</mat-label>
-		<mat-select value="value">
-			<mat-option (click)="changeTheme('food')" value="Food">Food</mat-option>
-			<mat-option (click)="changeTheme('blue')" value="Blue">Blue</mat-option>
-		</mat-select>
-	</mat-form-field>
-	<div>
-		<mat-slide-toggle [checked]="darkmode" (change)="changeBrand($event)">Dark mode</mat-slide-toggle>
-	</div>
-</div>
 <div class="fakeFrame">
-	<app-top-nav></app-top-nav>
+	<div class="fakeSettings">
+		<mat-form-field>
+			<mat-label>Brand</mat-label>
+			<mat-select value="value">
+				<mat-option (click)="changeTheme('brand-1')" value="Brand 1">Brand 1</mat-option>
+				<mat-option (click)="changeTheme('brand-2')" value="Brand 2">Brand 2</mat-option>
+				<mat-option (click)="changeTheme('brand-3')" value="Brand 3">Brand 3</mat-option>
+			</mat-select>
+		</mat-form-field>
+		<div>
+			<mat-slide-toggle [checked]="darkmode" (change)="changeBrand($event)">Dark mode</mat-slide-toggle>
+		</div>
+	</div>
+	<app-top-nav class="mb-m"></app-top-nav>
 	<app-recipe *ngFor="let item of recipe" [recipe]="item"></app-recipe>
-	<!--<select class="custom-select" [(ngModel)]='select' (change)="changeTheme($event)">
-		<option selected>Choose Theme...</option>
-		<option value="theme&#45;&#45;light">Light</option>
-		<option value="theme&#45;&#45;dark">Dark</option>
-	</select>-->
-	
 	
 </div>
 
