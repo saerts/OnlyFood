@@ -1,3 +1,18 @@
 {
-  "tokenSetOrder": []
+  "tokenSetOrder": [
+    "brands/brand-1/color",
+    "brands/brand-2/color",
+    "brands/brand-3/color",
+    "globals/button",
+    "globals/color/base",
+    "globals/color/font",
+    "globals/font/index",
+    "globals/size/font",
+    "platforms/android/button",
+    "platforms/android/font",
+    "platforms/ios/button",
+    "platforms/ios/font",
+    "platforms/web/button",
+    "platforms/web/font"
+  ]
 }

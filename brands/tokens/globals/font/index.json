@@ -1,8 +1,14 @@
 {
   "font": {
     "family": {
-      "headers" : { "value": "Poppins" },
-      "base"    : { "value": "{font.platform.system.value}" }
+      "headers": {
+        "value": "Poppins",
+        "type": "other"
+      },
+      "base": {
+        "value": "{font.platform.system.value}",
+        "type": "other"
+      }
     }
   }
 }
