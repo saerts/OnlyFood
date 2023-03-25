@@ -47,7 +47,18 @@
       "color.action.secondary": "S:71bb445bb76dae4b520f66f7e2ac39563905637d,",
       "color.action.tertiary": "S:c1aa3a124f10b9c21de51b2ec21340306579119e,",
       "color.brand.primary": "S:f2c7106e20d32241ef950e78df477c518a4e2346,",
-      "color.brand.secondary": "S:47b6285bdbf205b6875c83a3339cdcbb0b2cbffe,"
+      "color.brand.secondary": "S:47b6285bdbf205b6875c83a3339cdcbb0b2cbffe,",
+      "color.accent.neutral.10": "S:7cb2ff0e5d4d58b2e98b6c4526686748bdd57e22,",
+      "color.accent.neutral.20": "S:0b69b2b01f44a54055fb492a33eae85711d74d75,",
+      "color.accent.neutral.30": "S:3287ebdeae0c5d2c1908382e535f4c69381eef85,",
+      "color.accent.neutral.40": "S:237776c46e32f1620118cb9d05fa92fec1c11e48,",
+      "color.accent.neutral.50": "S:8503c3ae9f95741d4018b998f5bcd225321fe4cf,",
+      "color.accent.neutral.60": "S:8e4d6b5f87671528640d43a905fe3b9ec14a582f,",
+      "color.accent.neutral.70": "S:f470d603d166d74fd0d120e85bfac7ae8c1f20bd,",
+      "color.accent.neutral.80": "S:544cd12a5fa8b97d72e8a64b2ceeb3a8ad575325,",
+      "color.accent.neutral.90": "S:086d77feb9b33c6831fcec77682a025ba37172a8,",
+      "color.accent.neutral.100": "S:483a17375de77f392d9cc7d8fd5a7ca871aa951c,",
+      "color.accent.background.0": "S:bb1a310df8eece730457bf80413642ed711e07b3,"
     }
   },
   {
