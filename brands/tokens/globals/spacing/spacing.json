@@ -5,11 +5,11 @@
       "type": "spacing"
     },
     "s": {
-      "value": "8",
+      "value": "8px",
       "type": "spacing"
     },
     "m": {
-      "value": "16",
+      "value": "16px",
       "type": "spacing"
     },
     "l": {
