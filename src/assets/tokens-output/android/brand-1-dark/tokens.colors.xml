@@ -2,8 +2,21 @@
 
 <!--
   Do not edit directly
-  Generated on Sat, 25 Mar 2023 19:09:47 GMT
+  Generated on Sat, 25 Mar 2023 19:59:14 GMT
 -->
 <resources>
+  <color name="color_brand_primary">#ff3b5998</color>
+  <color name="color_brand_secondary">#ff8ab1ff</color>
+  <color name="color_accent_neutral_10">#ff181818</color>
+  <color name="color_accent_neutral_20">#ff303030</color>
+  <color name="color_accent_neutral_30">#ff484848</color>
+  <color name="color_accent_neutral_40">#ff606060</color>
+  <color name="color_accent_neutral_50">#ff797979</color>
+  <color name="color_accent_neutral_60">#ff919191</color>
+  <color name="color_accent_neutral_70">#ffa9a9a9</color>
+  <color name="color_accent_neutral_80">#ffc1c1c1</color>
+  <color name="color_accent_neutral_90">#ffd9d9d9</color>
+  <color name="color_accent_neutral_100">#fff1f1f1</color>
+  <color name="color_accent_background_0">#ff000000</color>
   
 </resources>

@@ -2,23 +2,23 @@
   "radius": {
     "xs": {
       "value": "4px",
-      "type": "border-radius"
+      "type": "Border-Radius"
     },
     "s": {
       "value": "8",
-      "type": "border-radius"
+      "type": "Border-Radius"
     },
     "m": {
       "value": "16",
-      "type": "border-radius"
+      "type": "Border-Radius"
     },
     "l": {
       "value": "{radius.s}*2",
-      "type": "border-radius"
+      "type": "Border-Radius"
     },
     "xl": {
       "value": "{radius.m}*2",
-      "type": "border-radius"
+      "type": "Border-Radius"
     }
   }
 }
