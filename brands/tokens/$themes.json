@@ -10,7 +10,25 @@
       "globals/font/index": "enabled",
       "globals/size/font": "enabled"
     },
-    "$figmaStyleReferences": {}
+    "$figmaStyleReferences": {
+      "color.font.base": "S:997f65a63c0d14e87e4006c10dd95004b750bb79,",
+      "color.font.primary": "S:7d7d634c77b0d9d4912173102e124756e9ce4ebe,",
+      "color.font.secondary": "S:97856ac8d29c771059bc22fff4760489e9881275,",
+      "color.font.tertiary": "S:b63447bec99aa1022a77ac08609c97918a95ba00,",
+      "color.base.black": "S:4ddff3579fecb5d990fb69369036a8baa809b417,",
+      "color.base.gray.light": "S:443fbdb3a3f202d3edc841e59ca24e9c9701689c,",
+      "color.base.gray.medium": "S:dcee488eea90ad39c06c65876ca170efc1b09574,",
+      "color.base.gray.dark": "S:a84fbc073c94c9899d0e779cac28909d3f6f70e8,",
+      "color.base.red": "S:80756046b193dd1f2d90a4a8137bac48088ea9a3,",
+      "color.base.green": "S:b1af8fff95cdfedcdb61e5896004f387d2d909d6,",
+      "color.primary": "S:a2194247658f186cf55e69f6110659900ab73c02,",
+      "color.secondary": "S:49f74ac022fc04c537263f861c9bd98d4b57a3a5,",
+      "color.action.primary": "S:3affb63661969c5bfa720906b7c51a005b67996b,",
+      "color.action.secondary": "S:71bb445bb76dae4b520f66f7e2ac39563905637d,",
+      "color.action.tertiary": "S:c1aa3a124f10b9c21de51b2ec21340306579119e,",
+      "color.brand.primary": "S:f2c7106e20d32241ef950e78df477c518a4e2346,",
+      "color.brand.secondary": "S:47b6285bdbf205b6875c83a3339cdcbb0b2cbffe,"
+    }
   },
   {
     "id": "5f0e9a10b235a9e95f67acc55a686bcbb120b3c5",
