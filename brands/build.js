@@ -5,22 +5,21 @@ const StyleDictionaryPackage = require('style-dictionary');
 function getStyleDictionaryConfig(brand, platform) {
   return {
     "source": [
-      `tokens/brands/${brand}/*.json`,
       "tokens/globals/**/*.json",
       `tokens/platforms/${platform}/*.json`
     ],
     "platforms": {
       "web": {
         "transformGroup": "web",
-        "buildPath": `build/web/${brand}/`,
+        "buildPath": `../src/app/_partials/`,
         "files": [{
-          "destination": "tokens.scss",
+          "destination": "variables.scss",
           "format": "scss/variables"
         }]
       },
       "android": {
         "transformGroup": "android",
-        "buildPath": `build/android/${brand}/`,
+        "buildPath": `../src/assets/tokens-output/android/${brand}/`,
         "files": [{
           "destination": "tokens.colors.xml",
           "format": "android/colors"
@@ -34,7 +33,7 @@ function getStyleDictionaryConfig(brand, platform) {
       },
       "ios": {
         "transformGroup": "ios",
-        "buildPath": `build/ios/${brand}/`,
+        "buildPath": `../src/assets/tokens-output/ios/${brand}/`,
         "files": [{
           "destination": "tokens.h",
           "format": "ios/macros"

@@ -48,36 +48,6 @@
         "type": "paragraphSpacing"
       }
     },
-    "Header": {
-      "Header-1": {
-        "value": {
-          "fontFamily": "{fontFamilies.poppins}",
-          "fontWeight": "{fontWeights.poppins-0}",
-          "lineHeight": "{lineHeights.0}",
-          "fontSize": "{fontSize.1}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
-      },
-      "Header-2": {
-        "value": {
-          "fontFamily": "{fontFamilies.poppins}",
-          "fontWeight": "{fontWeights.poppins-1}",
-          "lineHeight": "{lineHeights.1}",
-          "fontSize": "{fontSize.0}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "type": "typography"
-      }
-    },
     "textCase": {
       "none": {
         "value": "none",

@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +21,6 @@
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
     "rxjs": "~7.5.0",
-    "style-dictionary": "^3.7.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
