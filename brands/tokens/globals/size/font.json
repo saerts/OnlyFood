@@ -2,7 +2,7 @@
   "size": {
     "font": {
       "small": {
-        "value": "0.75",
+        "value": "14",
         "comment": "the small size of the font",
         "type": "sizing"
       },
