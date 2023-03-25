@@ -1,0 +1,8 @@
+{
+  "font": {
+    "family": {
+      "headers" : { "value": "Poppins" },
+      "base"    : { "value": "{font.platform.system.value}" }
+    }
+  }
+}
