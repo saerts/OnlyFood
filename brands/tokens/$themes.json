@@ -2,9 +2,7 @@
   {
     "id": "91856c5b00189a6c2590391dccc11886b0b1fe77",
     "name": "Light",
-    "selectedTokenSets": {
-      "globals/_core": "source"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {
       "Background.text": "S:d388950042d1e65de54cca63f3e7ba55ab5aad16,"
     }
@@ -12,9 +10,7 @@
   {
     "id": "e490f3501097cbaa012e99fbcc66bf45f6f211e3",
     "name": "Dark",
-    "selectedTokenSets": {
-      "globals/_core": "source"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {
       "Neutral.10": "S:a22989d9346e77b19defaddc6b18ed93a5fa50d9,",
       "Neutral.20": "S:3d2c3e49a8ba015e065e3979285a482ed8f40208,",
