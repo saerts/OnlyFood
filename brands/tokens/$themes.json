@@ -1,12 +1,32 @@
 [
   {
+    "id": "5f0e9a10b235a9e95f67acc55a686bcbb120b3c5",
+    "name": "Brand-2",
+    "selectedTokenSets": {
+      "globals/button": "enabled",
+      "globals/font/index": "enabled",
+      "globals/size/font": "enabled",
+      "brands/brand-2/color": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "b54c8f1ef78da572e370cad1703b751b1238beac",
+    "name": "Brand-3",
+    "selectedTokenSets": {
+      "globals/button": "enabled",
+      "globals/font/index": "enabled",
+      "globals/size/font": "enabled",
+      "brands/brand-3/color": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
     "id": "d67d79b5dffc7f814d2612658d95275ba6da331d",
     "name": "Brand-1",
     "selectedTokenSets": {
       "brands/brand-1/color": "enabled",
       "globals/button": "enabled",
-      "globals/color/base": "enabled",
-      "globals/color/font": "enabled",
       "globals/font/index": "enabled",
       "globals/size/font": "enabled"
     },
@@ -31,28 +51,35 @@
     }
   },
   {
-    "id": "5f0e9a10b235a9e95f67acc55a686bcbb120b3c5",
-    "name": "Brand-2",
+    "id": "51d39cada6b3348c99af84689342a938003ff133",
+    "name": "Brand-2-dark",
     "selectedTokenSets": {
       "globals/button": "enabled",
-      "globals/color/base": "enabled",
-      "globals/color/font": "enabled",
       "globals/font/index": "enabled",
       "globals/size/font": "enabled",
-      "brands/brand-2/color": "enabled"
+      "brands/brand-2-dark/color": "enabled"
     },
     "$figmaStyleReferences": {}
   },
   {
-    "id": "b54c8f1ef78da572e370cad1703b751b1238beac",
-    "name": "Brand-3",
+    "id": "1b4767b3c1989bbeb9cfdf9667f4987478b82a4e",
+    "name": "Brand-1-dark",
     "selectedTokenSets": {
+      "brands/brand-1-dark/color": "enabled",
       "globals/button": "enabled",
-      "globals/color/base": "enabled",
-      "globals/color/font": "enabled",
       "globals/font/index": "enabled",
-      "globals/size/font": "enabled",
-      "brands/brand-3/color": "enabled"
+      "globals/size/font": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "ea1c91bbc1ba7ef50b51aa9a93bedc8b4a39c71f",
+    "name": "Brand-3-dark",
+    "selectedTokenSets": {
+      "brands/brand-3-dark/color": "enabled",
+      "globals/button": "enabled",
+      "globals/font/index": "enabled",
+      "globals/size/font": "enabled"
     },
     "$figmaStyleReferences": {}
   }

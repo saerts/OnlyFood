@@ -1,11 +1,12 @@
 {
   "tokenSetOrder": [
     "brands/brand-1/color",
+    "brands/brand-1-dark/color",
+    "brands/brand-2-dark/color",
     "brands/brand-2/color",
+    "brands/brand-3-dark/color",
     "brands/brand-3/color",
     "globals/button",
-    "globals/color/base",
-    "globals/color/font",
     "globals/font/index",
     "globals/size/font",
     "platforms/android/button",
