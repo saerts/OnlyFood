@@ -2,12 +2,14 @@
   "color": {
     "brand": {
       "primary": {
-        "value": "#1DA1F2",
-        "type": "color"
+        "value": "#d818f9",
+        "type": "color",
+        "description": "#d818f9"
       },
       "secondary": {
-        "value": "#AAB8C2",
-        "type": "color"
+        "value": "#750682",
+        "type": "color",
+        "description": "#BAD1CD"
       }
     },
     "accent": {
@@ -65,7 +67,7 @@
       },
       "background": {
         "0": {
-          "value": "#ffffff",
+          "value": "#efe3f3",
           "type": "color",
           "description": "FFFFFF"
         }
