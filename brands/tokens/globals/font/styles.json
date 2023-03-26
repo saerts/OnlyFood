@@ -1,21 +1,38 @@
 {
   "Heading 1": {
-    "value": {
-      "fontFamily": "{font.fontFamilies.poppins}",
-      "fontWeight": "{font.fontWeights.poppins-SemiBold}",
-      "lineHeight": "{font.lineHeights.0}",
-      "fontSize": "{font.fontSize.l}"
+    "fontFamily": {
+      "value": "{font.fontFamilies.poppins}",
+      "type": "fontFamilies"
     },
-    "type": "typography",
-    "description": "Heading 1"
+    "fontWeight": {
+      "value": "{font.fontWeights.poppins-SemiBold}",
+      "type": "fontWeights"
+    },
+    "lineHeight": {
+      "value": "{font.lineHeights.0}",
+      "type": "lineHeight"
+    },
+    "fontSize": {
+      "value": "{font.fontSize.l}",
+      "type": "fontSizes"
+    }
   },
   "Heading 2": {
-    "value": {
-      "fontFamily": "{font.fontFamilies.poppins}",
-      "fontWeight": "{font.fontWeights.poppins-Bold}",
-      "lineHeight": "{font.lineHeights.0}",
-      "fontSize": "{font.fontSize.l}"
+    "fontFamily": {
+      "value": "{font.fontFamilies.poppins}",
+      "type": "fontFamilies"
     },
-    "type": "typography"
+    "fontWeight": {
+      "value": "{font.fontWeights.poppins-Bold}",
+      "type": "fontWeights"
+    },
+    "lineHeight": {
+      "value": "{font.lineHeights.0}",
+      "type": "lineHeight"
+    },
+    "fontSize": {
+      "value": "{font.fontSize.l}",
+      "type": "fontSizes"
+    }
   }
 }

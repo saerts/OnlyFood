@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sun, 26 Mar 2023 11:56:57 GMT
+// Generated on Sun, 26 Mar 2023 12:47:18 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -30,6 +30,8 @@
 #define FontTextDecorationNone @"none"
 #define FontParagraphIndent0 @"0px"
 #define FontPlatformSystem @"San Francisco"
+#define Heading1 [object Object]
+#define Heading2 [object Object]
 #define RadiusXs 4px
 #define RadiusS 8px
 #define RadiusM 16px

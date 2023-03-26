@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 26 Mar 2023 11:56:57 GMT
+ * Generated on Sun, 26 Mar 2023 12:47:18 GMT
  */
 
 export const FontFontFamiliesPoppins = "Poppins";
@@ -22,6 +22,8 @@ export const FontParagraphSpacing0 = "0";
 export const FontTextCaseNone = "none";
 export const FontTextDecorationNone = "none";
 export const FontParagraphIndent0 = "0px";
+export const Heading1 = {"fontFamily":"Poppins","fontWeight":"600","lineHeight":"120%","fontSize":"20px"};
+export const Heading2 = {"fontFamily":"Poppins","fontWeight":"700","lineHeight":"120%","fontSize":"20px"};
 export const RadiusXs = "4px";
 export const RadiusS = "8px";
 export const RadiusM = "16px";
