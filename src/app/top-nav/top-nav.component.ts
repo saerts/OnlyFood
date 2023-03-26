@@ -4,10 +4,10 @@ import {Component, OnInit} from '@angular/core';
   selector: 'app-top-nav',
   template: `
 	  <button class="iconOnly">
-		  <img src="../../assets/icons/back.svg"/>
+		  <img alt="back" src="../../assets/icons/back.svg"/>
 	  </button>
 	  <button class="iconOnly">
-		  <img src="../../assets/icons/more.svg"/>
+		  <img alt="more" src="../../assets/icons/more.svg"/>
 	  </button>
   `,
   styleUrls: ["top-nav.component.scss"]

@@ -4,9 +4,4 @@
 	$accent: map-get($theme, accent);
 	$primary: map-get($theme, primary);
 
-
-
-	h2{
-		color: mat-color($primary, primary-10);
-	}
 }

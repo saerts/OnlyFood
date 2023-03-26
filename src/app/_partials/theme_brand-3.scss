@@ -2,6 +2,7 @@
 @use "../../assets/tokens-output/web/brand-3-dark/tokens-brand-3-dark" as dark;
 @import "@angular/material/theming";
 $brand-3-primary: (
+	primary: light.$color-brand-primary,
 	primary-10: light.$color-brand-primary,
 	contrast: (
 		50: #000000,
@@ -21,6 +22,7 @@ $brand-3-primary: (
 	),
 );
 $brand-3-dark-primary: (
+	primary: dark.$color-brand-primary,
 	primary-10: dark.$color-brand-primary,
 	contrast: (
 		50: #000000,
@@ -79,7 +81,7 @@ $brand-3-dark-accent: (
 	neutral-80:dark.$color-accent-neutral-80,
 	neutral-90:dark.$color-accent-neutral-90,
 	neutral-100:dark.$color-accent-neutral-100,
-	background-0: light.$color-accent-background-0,
+	background-0: dark.$color-accent-background-0,
 	contrast: (
 		50: #000000,
 		100: #000000,

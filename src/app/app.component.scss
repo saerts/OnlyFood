@@ -12,12 +12,14 @@
 		margin: 0 auto $spacing-xl;
 
 		.fakeSettings{
-			padding-bottom: $spacing-xl;
 			display:flex;
 			align-items:center;
 			justify-content:space-between;
+			border-radius:0 0 $radius-m $radius-m;
 		}
-
 	}
 
+	.onlyFood{
+		border-radius:$radius-m;
+	}
 }

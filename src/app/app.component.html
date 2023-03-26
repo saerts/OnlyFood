@@ -1,5 +1,5 @@
 <div class="fakeFrame">
-	<div class="fakeSettings">
+	<div class="fakeSettings pl-l pr-l">
 		<mat-form-field>
 			<mat-label>Brand</mat-label>
 			<mat-select value="value">
@@ -9,11 +9,12 @@
 			</mat-select>
 		</mat-form-field>
 		<div>
-			<mat-slide-toggle [checked]="darkmode" (change)="changeBrand($event)">Dark mode</mat-slide-toggle>
+			<mat-slide-toggle color="primary" [checked]="darkmode" (change)="changeBrand($event)">Dark mode</mat-slide-toggle>
 		</div>
 	</div>
-	<app-top-nav class="mb-m"></app-top-nav>
-	<app-recipe *ngFor="let item of recipe" [recipe]="item"></app-recipe>
-	
+	<div class="onlyFood mt-xl pl-m pr-m">
+		<app-top-nav class="mb-m"></app-top-nav>
+		<app-recipe *ngFor="let item of recipe" [recipe]="item"></app-recipe>
+	</div>
 </div>
 
