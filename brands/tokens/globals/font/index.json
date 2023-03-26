@@ -25,8 +25,12 @@
         "value": "400",
         "type": "fontWeights"
       },
-      "poppins-SemiBold": {
+      "poppins-Medium": {
         "value": "500",
+        "type": "fontWeights"
+      },
+      "poppins-SemiBold": {
+        "value": "600",
         "type": "fontWeights"
       },
       "poppins-Bold": {

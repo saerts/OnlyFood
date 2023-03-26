@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 26 Mar 2023 11:50:41 GMT
+ * Generated on Sun, 26 Mar 2023 11:56:57 GMT
  */
 
 export const FontFontFamiliesPoppins = "Poppins";
@@ -8,7 +8,8 @@ export const FontLineHeights0 = "120%";
 export const FontLineHeights1 = "140%";
 export const FontFontWeightsPoppinsLight = "300";
 export const FontFontWeightsPoppinsRegular = "400";
-export const FontFontWeightsPoppinsSemiBold = "500";
+export const FontFontWeightsPoppinsMedium = "500";
+export const FontFontWeightsPoppinsSemiBold = "600";
 export const FontFontWeightsPoppinsBold = "700";
 export const FontFontWeightsPoppinsExtraBold = "900";
 export const FontFontSizeXs = "12px";
