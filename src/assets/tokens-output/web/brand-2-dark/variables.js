@@ -1,0 +1,35 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 26 Mar 2023 11:27:55 GMT
+ */
+
+export const FontFontFamiliesPoppins = "Poppins";
+export const FontLineHeights0 = "120%";
+export const FontLineHeights1 = "140%";
+export const FontFontWeightsPoppinsSemiBold = "SemiBold";
+export const FontFontWeightsPoppinsBold = "Bold";
+export const FontFontWeightsPoppinsRegular = "regular";
+export const FontFontSizeXs = "12px";
+export const FontFontSizeS = "14px";
+export const FontFontSizeM = "16px";
+export const FontFontSizeL = "20px";
+export const FontFontSizeXl = "24px";
+export const FontLetterSpacing0 = "0%";
+export const FontParagraphSpacing0 = "0";
+export const FontTextCaseNone = "none";
+export const FontTextDecorationNone = "none";
+export const FontParagraphIndent0 = "0px";
+export const RadiusXs = "4px";
+export const RadiusS = "8px";
+export const RadiusM = "16px";
+export const RadiusL = "20px";
+export const RadiusXl = "24px";
+export const SizeFontSmall = "14rem"; // the small size of the font
+export const SizeFontMedium = "1rem"; // the medium size of the font
+export const SizeFontLarge = "2rem"; // the large size of the font
+export const SizeFontBase = "1rem"; // the base size of the font
+export const SpacingXs = "4px";
+export const SpacingS = "8px";
+export const SpacingM = "16px";
+export const SpacingL = "8px*2";
+export const SpacingXl = "16px*2";
