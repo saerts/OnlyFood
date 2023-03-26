@@ -8,6 +8,7 @@
     "brands/brand-3/color",
     "globals/spacing/spacing",
     "globals/font/index",
+    "globals/font/styles",
     "globals/size/font",
     "platforms/android/button",
     "platforms/android/font",

@@ -1,0 +1,50 @@
+{
+  "font": {
+    "fontSize": {
+      "xs": {
+        "value": "12px",
+        "type": "fontSizes",
+        "description": "12px"
+      },
+      "s": {
+        "value": "14px",
+        "type": "fontSizes",
+        "description": "14px"
+      },
+      "m": {
+        "value": "16px",
+        "type": "fontSizes",
+        "description": "16px"
+      },
+      "l": {
+        "value": "20px",
+        "type": "fontSizes",
+        "description": "20px"
+      },
+      "xl": {
+        "value": "24px",
+        "type": "fontSizes",
+        "description": "24px"
+      }
+    }
+  },
+  "Heading 1": {
+    "value": {
+      "fontFamily": "{font.fontFamilies.poppins}",
+      "fontWeight": "{font.fontWeights.poppins-SemiBold}",
+      "lineHeight": "{font.lineHeights.0}",
+      "fontSize": "{font.fontSize.l}"
+    },
+    "type": "typography",
+    "description": "Heading 1"
+  },
+  "Heading 2": {
+    "value": {
+      "fontFamily": "{font.fontFamilies.poppins}",
+      "fontWeight": "{font.fontWeights.poppins-Bold}",
+      "lineHeight": "{font.lineHeights.0}",
+      "fontSize": "{font.fontSize.l}"
+    },
+    "type": "typography"
+  }
+}
