@@ -17,16 +17,34 @@ function getStyleDictionaryConfig(brand, platform) {
           "format": "scss/variables"
         }]
       },
+      "js": {
+        "transformGroup": "js",
+        "buildPath": `../src/assets/tokens-output/web/${brand}/`,
+        "files": [{
+          "destination": "variables.js",
+          "format": "javascript/es6"
+        }]
+      },
+      "json-flat": {
+        "transformGroup": "web",
+        "buildPath": `../src/assets/tokens-output/web/${brand}/`,
+        "files": [
+          {
+            "destination": "variables.json",
+            "format": "json/flat"
+          }
+        ]
+      },
       "android": {
         "transformGroup": "android",
         "buildPath": `../src/assets/tokens-output/android/${brand}/`,
         "files": [{
           "destination": "tokens.colors.xml",
           "format": "android/colors"
-        },{
+        }, {
           "destination": "tokens.dimens.xml",
           "format": "android/dimens"
-        },{
+        }, {
           "destination": "tokens.font_dimens.xml",
           "format": "android/fontDimens"
         }]
@@ -48,7 +66,7 @@ console.log('Build started...');
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
 ['brand-1', 'brand-2', 'brand-3', 'brand-1-dark', 'brand-2-dark', 'brand-3-dark'].map(function (brand) {
-  ['web', 'ios', 'android'].map(function (platform) {
+  ['web', 'ios', 'android', 'js', 'json-flat'].map(function (platform) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${platform}] [${brand}]`);
