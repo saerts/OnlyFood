@@ -13,7 +13,7 @@
       "type": "lineHeight"
     },
     "fontSize": {
-      "value": "{font.fontSize.l}",
+      "value": "{font.fontSize.xl}",
       "type": "fontSizes"
     }
   },
