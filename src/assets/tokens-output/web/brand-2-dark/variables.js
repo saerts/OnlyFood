@@ -1,14 +1,16 @@
 /**
  * Do not edit directly
- * Generated on Sun, 26 Mar 2023 11:27:55 GMT
+ * Generated on Sun, 26 Mar 2023 11:50:41 GMT
  */
 
 export const FontFontFamiliesPoppins = "Poppins";
 export const FontLineHeights0 = "120%";
 export const FontLineHeights1 = "140%";
-export const FontFontWeightsPoppinsSemiBold = "SemiBold";
-export const FontFontWeightsPoppinsBold = "Bold";
-export const FontFontWeightsPoppinsRegular = "regular";
+export const FontFontWeightsPoppinsLight = "300";
+export const FontFontWeightsPoppinsRegular = "400";
+export const FontFontWeightsPoppinsSemiBold = "500";
+export const FontFontWeightsPoppinsBold = "700";
+export const FontFontWeightsPoppinsExtraBold = "900";
 export const FontFontSizeXs = "12px";
 export const FontFontSizeS = "14px";
 export const FontFontSizeM = "16px";

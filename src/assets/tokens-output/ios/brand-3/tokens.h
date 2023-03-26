@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sun, 26 Mar 2023 11:27:55 GMT
+// Generated on Sun, 26 Mar 2023 11:50:41 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -13,9 +13,11 @@
 #define FontFontFamiliesPoppins @"Poppins"
 #define FontLineHeights0 @"120%"
 #define FontLineHeights1 @"140%"
-#define FontFontWeightsPoppinsSemiBold @"SemiBold"
-#define FontFontWeightsPoppinsBold @"Bold"
-#define FontFontWeightsPoppinsRegular @"regular"
+#define FontFontWeightsPoppinsLight @"300"
+#define FontFontWeightsPoppinsRegular @"400"
+#define FontFontWeightsPoppinsSemiBold @"500"
+#define FontFontWeightsPoppinsBold @"700"
+#define FontFontWeightsPoppinsExtraBold @"900"
 #define FontFontSizeXs @"12px"
 #define FontFontSizeS @"14px"
 #define FontFontSizeM @"16px"

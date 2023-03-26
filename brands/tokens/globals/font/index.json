@@ -17,16 +17,24 @@
       }
     },
     "fontWeights": {
-      "poppins-SemiBold": {
-        "value": "SemiBold",
-        "type": "fontWeights"
-      },
-      "poppins-Bold": {
-        "value": "Bold",
+      "poppins-Light": {
+        "value": "300",
         "type": "fontWeights"
       },
       "poppins-Regular": {
-        "value": "regular",
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "poppins-SemiBold": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "poppins-Bold": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "poppins-Extra-Bold": {
+        "value": "900",
         "type": "fontWeights"
       }
     },
