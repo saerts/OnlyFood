@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 27 Mar 2023 13:26:15 GMT
+// Generated on Mon, 27 Mar 2023 14:11:36 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -46,10 +46,11 @@
 #define SizeL 320.00f
 #define SizeXl 384.00f
 #define SizeXxl 256.00f*2
+#define SpacingNone 0
 #define SpacingXs 4px
 #define SpacingS 8px
 #define SpacingM 16px
-#define SpacingL 8px*2
+#define SpacingL 8px*3
 #define SpacingXl 16px*2
 #define ButtonHeight 50px
 

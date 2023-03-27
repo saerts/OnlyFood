@@ -34,9 +34,10 @@
   "size-l": "20px",
   "size-xl": "24px",
   "size-xxl": "16px*2",
+  "spacing-none": "0",
   "spacing-xs": "4px",
   "spacing-s": "8px",
   "spacing-m": "16px",
-  "spacing-l": "8px*2",
+  "spacing-l": "8px*3",
   "spacing-xl": "16px*2"
 }

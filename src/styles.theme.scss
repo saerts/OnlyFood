@@ -17,5 +17,10 @@
 		mat-icon{
 			color: mat-color($accent, neutral-90);
 		}
+
+		.mat-tab-label{
+			color: mat-color($accent, neutral-100);
+		}
+
 	}
 }
