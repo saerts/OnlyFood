@@ -2,22 +2,22 @@
   "size": {
     "font": {
       "small": {
-        "value": "14",
+        "value": "14px",
         "comment": "the small size of the font",
         "type": "sizing"
       },
       "medium": {
-        "value": "1",
+        "value": "16px",
         "comment": "the medium size of the font",
         "type": "sizing"
       },
       "large": {
-        "value": "2",
+        "value": "20px",
         "comment": "the large size of the font",
         "type": "sizing"
       },
       "base": {
-        "value": "{size.font.medium.value}",
+        "value": "{size.font.medium}",
         "comment": "the base size of the font",
         "type": "sizing"
       }
