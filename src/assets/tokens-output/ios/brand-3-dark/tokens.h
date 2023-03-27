@@ -4,47 +4,23 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 27 Mar 2023 08:55:13 GMT
+// Generated on Mon, 27 Mar 2023 09:43:06 GMT
 
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define FontFamiliesPoppins Poppins
-#define LineHeights0 120%
-#define LineHeights1 140%
-#define FontWeightsPoppinsLight 300
-#define FontWeightsPoppinsRegular 400
-#define FontWeightsPoppinsMedium 500
-#define FontWeightsPoppinsSemiBold 600
-#define FontWeightsPoppinsBold 700
-#define FontWeightsPoppinsExtraBold 900
-#define FontSizeXs 12px
-#define FontSizeS 14px
-#define FontSizeM 16px
-#define FontSizeL 20px
-#define FontSizeXl 24px
-#define LetterSpacing0 0%
-#define ParagraphSpacing0 0
-#define TextCaseNone none
-#define FontTextDecorationNone @"none"
-#define FontParagraphIndent0 @"0px"
-#define FontPlatformSystem @"San Francisco"
-#define Heading1 [object Object]
-#define Heading2 [object Object]
-#define RadiusXs 4px
-#define RadiusS 8px
-#define RadiusM 16px
-#define RadiusL 20px
-#define RadiusXl 24px
-#define SizeFontSmall 224.00f
-#define SizeFontMedium 16.00f
-#define SizeFontLarge 32.00f
-#define SizeFontBase 16.00f
-#define SpacingXs 4px
-#define SpacingS 8px
-#define SpacingM 16px
-#define SpacingL 8px*2
-#define SpacingXl 16px*2
-#define ButtonHeight 50px
+#define ColorBrandPrimary [UIColor colorWithRed:0.918f green:0.263f blue:0.208f alpha:1.000f]
+#define ColorBrandSecondary [UIColor colorWithRed:0.988f green:0.729f blue:0.016f alpha:1.000f]
+#define ColorAccentNeutral10 [UIColor colorWithRed:0.094f green:0.094f blue:0.094f alpha:1.000f]
+#define ColorAccentNeutral20 [UIColor colorWithRed:0.188f green:0.188f blue:0.188f alpha:1.000f]
+#define ColorAccentNeutral30 [UIColor colorWithRed:0.282f green:0.282f blue:0.282f alpha:1.000f]
+#define ColorAccentNeutral40 [UIColor colorWithRed:0.376f green:0.376f blue:0.376f alpha:1.000f]
+#define ColorAccentNeutral50 [UIColor colorWithRed:0.475f green:0.475f blue:0.475f alpha:1.000f]
+#define ColorAccentNeutral60 [UIColor colorWithRed:0.569f green:0.569f blue:0.569f alpha:1.000f]
+#define ColorAccentNeutral70 [UIColor colorWithRed:0.663f green:0.663f blue:0.663f alpha:1.000f]
+#define ColorAccentNeutral80 [UIColor colorWithRed:0.757f green:0.757f blue:0.757f alpha:1.000f]
+#define ColorAccentNeutral90 [UIColor colorWithRed:0.851f green:0.851f blue:0.851f alpha:1.000f]
+#define ColorAccentNeutral100 [UIColor colorWithRed:0.945f green:0.945f blue:0.945f alpha:1.000f]
+#define ColorAccentBackground0 [UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:1.000f]
 

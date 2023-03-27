@@ -1,0 +1,25 @@
+@use "variables" as var;
+:host{
+
+	.header{
+		margin-bottom: var.$spacing-m;
+	}
+	.category-time-container{
+		margin-top: var.$spacing-s;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		font-size: var.$font-size-xs;
+
+		.time, .category{
+			display:flex;
+			align-items:center;
+		}
+		
+		mat-icon{
+			margin-right: var.$spacing-xs;
+			width: 16px; height: 16px;
+			font-size: var.$font-size-m;
+		}
+	}
+}

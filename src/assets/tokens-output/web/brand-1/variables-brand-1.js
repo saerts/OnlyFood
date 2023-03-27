@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Sun, 26 Mar 2023 11:27:42 GMT
+ * Generated on Mon, 27 Mar 2023 09:43:06 GMT
  */
 
-export const ColorBrandPrimary = "#3b5998";
+export const ColorBrandPrimary = "#fae831";
 export const ColorBrandSecondary = "#8ab1ff";
 export const ColorAccentNeutral10 = "#f1f1f1";
 export const ColorAccentNeutral20 = "#d9d9d9";

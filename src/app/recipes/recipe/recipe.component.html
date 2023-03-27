@@ -3,13 +3,17 @@
 		<h1>{{ recipe.title }}</h1>
 		<div class="category-time-container">
 			<div class="category">
-			
+				<mat-icon>category</mat-icon> {{ recipe.category }}
+			</div>
+			<div class="time">
+				<mat-icon>schedule</mat-icon> {{ recipe.preparationTime }}
 			</div>
 		</div>
+		
 	</div>
 	
 	<p>
-		{{ recipe.category }}
+	
 	</p>
 	<div *ngFor="let ingredient of recipe.ingredients">
 		{{ ingredient.name }} {{ ingredient.amount }}
