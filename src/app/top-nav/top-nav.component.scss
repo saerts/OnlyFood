@@ -3,5 +3,15 @@
 	display:flex;
 	align-items:center;
 	justify-content:space-between;
-	margin-bottom: $size-m;
+	padding-top: $spacing-s;
+	button{
+		background:none;
+		border: none;
+		cursor:pointer;
+		transition:all 220ms ease-in-out;
+
+		&:hover{
+			opacity: .7;
+		}
+	}
 }

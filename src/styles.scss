@@ -1,8 +1,15 @@
+@use "app/_partials/themes";
+@include themes.themes(); //include the themes for the core ui components
+@include themes.apply-themes using($theme) {
+}
+
+
 /* You can add global styles to this file, and also import other style files */
 @import "reset";
 @import "fonts";
 @import "variables";
 @import "functions";
+@import "spacing";
 
 html {
 	height: 100%;
@@ -12,22 +19,33 @@ body {
 	-webkit-overflow-scrolling: touch;
 	height: 100%;
 	margin: 0;
-	font-family: Poppins, "Helvetica Neue", sans-serif;
-	font-weight: 400;
+	font-family: $font-families-poppins, "Helvetica Neue", sans-serif;
+	font-weight: $font-weights-poppins-regular;
+	font-size: $font-size-m;
+	box-sizing: border-box;
 }
 
-h2{
-	font-weight: 700;
-	@include font-size($font-size-5);
-	line-height:$line-heights-0;
-	margin-bottom: $size-s+px;
+h1{
+	font-weight: $font-weights-poppins-semi-bold;
+	font-size: $font-size-xl;
 }
 
-button.iconOnly{
-	background:none;
-	padding: 0;
-	margin: 0;
-	border: none;
-	width: $size-l; height: $size-l;
-	cursor:pointer;
+a{
+	text-decoration: underline;
+	transition:all 220ms ease-in-out;
+	&:hover{
+		text-decoration: none;
+	}
+}
+.mat-tab-group, .mat-tab-body-wrapper{
+	height:100%;
+}
+.mat-tab-label{
+	font-size: $font-size-l;
+	font-weight: $font-weights-poppins-bold;
+	opacity: 1 !important;
+}
+.mat-ink-bar{
+	height: 4px !important;
+	border-radius:50px;
 }

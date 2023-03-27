@@ -1,0 +1,15 @@
+@import '@angular/material/theming';
+@import "variables";
+
+@mixin app-styles($theme) {
+	$accent: map-get($theme, accent);
+	$primary: map-get($theme, primary);
+
+	.fakeSettings{
+		background: mat-color($accent, neutral-10);
+	}
+
+	.onlyFood{
+		background: mat-color($accent, background-0);
+	}
+}

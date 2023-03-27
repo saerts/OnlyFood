@@ -1,0 +1,82 @@
+@use "variables" as var;
+:host{
+	display:flex;
+	box-sizing: border-box;
+	.header{
+		margin-bottom: var.$spacing-m;
+	}
+	.category-time-container{
+		margin-top: var.$spacing-s;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		font-size: var.$font-size-xs;
+
+		.time, .category{
+			display:flex;
+			align-items:center;
+		}
+		
+		mat-icon{
+			margin-right: var.$spacing-xs;
+			width: 16px; height: 16px;
+			font-size: var.$font-size-m;
+		}
+	}
+
+	.visual-container{
+		display:flex;
+		flex-direction:column;
+
+		img{
+			border-radius: var.$radius-m;
+		}
+
+		.ratings{
+			display:flex;
+			align-items:center;
+			justify-content:space-between;
+
+			.rating{
+				display:flex;
+				align-items:center;
+				font-size: var.$font-size-s;
+				font-weight: var.$font-weights-poppins-semi-bold;
+				line-height: var.$line-heights-0;
+
+				mat-icon{
+					font-size: var.$font-size-m;
+					width: var.$size-m; height: var.$size-m;
+					margin-right: var.$spacing-xs;
+				}
+
+				span.users{
+					font-size: var.$font-size-xs;
+					font-weight: var.$font-weights-poppins-regular;
+				}
+			}
+		}
+	}
+
+	.ingredients{
+		display:flex;
+		flex-direction:column;
+		margin: var.$spacing-m 0;
+
+		.ingredient{
+			display:flex;
+			align-items:center;
+			justify-content:space-between;
+			padding: var.$spacing-m var.$spacing-m;
+			margin-bottom: var.$spacing-s;
+			border-radius: var.$radius-m;
+			font-weight: var.$font-weights-poppins-semi-bold;
+			font-size: var.$font-size-m;
+
+			span{
+				font-weight: var.$font-weights-poppins-regular;
+				font-size: var.$font-size-s;
+			}
+		}
+	}
+}

@@ -1,9 +1,40 @@
-<div *ngIf="recipe">
-	<h2>{{ recipe.title }}</h2>
-	<p>
-		{{ recipe.category }}
-	</p>
-	<div *ngFor="let ingredient of recipe.ingredients">
-		{{ ingredient.name }} {{ ingredient.amount }}
+<div class="recipe" *ngIf="recipe">
+	<div class="header">
+		<h1>{{ recipe.title }}</h1>
+		<div class="category-time-container">
+			<div class="category">
+				<mat-icon>local_offer</mat-icon>
+				<a href="#">{{ recipe.category }}</a>
+			</div>
+			<div class="time">
+				<mat-icon>watch_later</mat-icon>
+				{{ recipe.preparationTime }}
+			</div>
+		</div>
 	</div>
+	<div class="visual-container mt-l mb-l">
+		<img src="{{ recipe.visual }}" alt="{{ recipe.title }}"/>
+		<div class="ratings mt-m">
+			<div class="rating adult">
+				<mat-icon>star</mat-icon>
+				<span>7,5</span> <span class="users ml-s">(2 Adults)</span>
+			</div>
+			<div class="rating adult">
+				<mat-icon>child_care</mat-icon>
+				<span>3,5</span> <span class="users ml-s">(2 Kids)</span>
+			</div>
+		</div>
+	</div>
+	<mat-tab-group>
+		<mat-tab label="Ingredients (6)">
+			<div class="ingredients">
+				<div *ngFor="let ingredient of recipe.ingredients" class="ingredient">
+					{{ ingredient.name }} <span>{{ ingredient.amount }}</span>
+				</div>
+			</div>
+		</mat-tab>
+		<mat-tab label="Recipe"> Recipe </mat-tab>
+	</mat-tab-group>
+	
+	
 </div>

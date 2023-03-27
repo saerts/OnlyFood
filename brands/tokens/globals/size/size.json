@@ -1,0 +1,29 @@
+{
+  "size": {
+    "s": {
+      "value": "14",
+      "comment": "the small size of the font",
+      "type": "sizing"
+    },
+    "m": {
+      "value": "16",
+      "comment": "the medium size of the font",
+      "type": "sizing"
+    },
+    "l": {
+      "value": "20",
+      "comment": "the large size of the font",
+      "type": "sizing"
+    },
+    "xl": {
+      "value": "24",
+      "comment": "the base size of the font",
+      "type": "sizing"
+    },
+    "xxl": {
+      "value": "{size.m}*2",
+      "comment": "{size.m.value}*2",
+      "type": "sizing"
+    }
+  }
+}

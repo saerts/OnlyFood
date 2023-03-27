@@ -1,5 +1,20 @@
 <div class="fakeFrame">
-	<app-top-nav></app-top-nav>
-	<app-recipe *ngFor="let item of recipe" [recipe]="item"></app-recipe>
+	<div class="fakeSettings pl-l pr-l">
+		<mat-form-field>
+			<mat-label>Brand</mat-label>
+			<mat-select value="value">
+				<mat-option (click)="changeTheme('brand-1')" value="Brand 1">Brand 1</mat-option>
+				<mat-option (click)="changeTheme('brand-2')" value="Brand 2">Brand 2</mat-option>
+				<mat-option (click)="changeTheme('brand-3')" value="Brand 3">Brand 3</mat-option>
+			</mat-select>
+		</mat-form-field>
+		<div>
+			<mat-slide-toggle color="primary" [checked]="darkmode" (change)="changeBrand($event)">Dark mode</mat-slide-toggle>
+		</div>
+	</div>
+	<div class="onlyFood mt-xl">
+		<app-top-nav class="mb-m pl-s pr-s"></app-top-nav>
+		<app-recipe class="pl-m pr-m" *ngFor="let item of recipe" [recipe]="item"></app-recipe>
+	</div>
 </div>
 

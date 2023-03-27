@@ -1,4 +1,25 @@
-.fakeFrame{
-	max-width: 375px;
-	margin: 36px auto;
+@import "variables";
+@import "themes";
+:host{
+	display:block;
+	width:100%;
+	height:auto;
+	box-sizing: border-box;
+
+
+	.fakeFrame{
+		max-width: 375px;
+		margin: 0 auto $spacing-xl;
+
+		.fakeSettings{
+			display:flex;
+			align-items:center;
+			justify-content:space-between;
+			border-radius:0 0 $radius-m $radius-m;
+		}
+	}
+
+	.onlyFood{
+		border-radius:$radius-m;
+	}
 }

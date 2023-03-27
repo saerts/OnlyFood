@@ -1,0 +1,22 @@
+{
+  "tokenSetOrder": [
+    "brands/brand-1/color",
+    "brands/brand-1-dark/color",
+    "brands/brand-2-dark/color",
+    "brands/brand-2/color",
+    "brands/brand-3-dark/color",
+    "brands/brand-3/color",
+    "globals/spacing/spacing",
+    "globals/font/index",
+    "globals/font/styles",
+    "globals/size/font",
+    "platforms/android/button",
+    "platforms/android/font",
+    "platforms/ios/button",
+    "platforms/ios/font",
+    "platforms/web/button",
+    "platforms/web/font",
+    "globals/radius",
+    "globals/size/size"
+  ]
+}

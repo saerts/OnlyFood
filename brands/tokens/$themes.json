@@ -1,0 +1,115 @@
+[
+  {
+    "id": "5f0e9a10b235a9e95f67acc55a686bcbb120b3c5",
+    "name": "Brand-2",
+    "selectedTokenSets": {
+      "globals/font/index": "enabled",
+      "globals/size/font": "enabled",
+      "brands/brand-2/color": "enabled",
+      "globals/spacing/spacing": "enabled",
+      "globals/radius": "enabled",
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "b54c8f1ef78da572e370cad1703b751b1238beac",
+    "name": "Brand-3",
+    "selectedTokenSets": {
+      "globals/font/index": "enabled",
+      "globals/size/font": "enabled",
+      "brands/brand-3/color": "enabled",
+      "globals/spacing/spacing": "enabled",
+      "globals/radius": "enabled",
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "d67d79b5dffc7f814d2612658d95275ba6da331d",
+    "name": "Brand-1",
+    "selectedTokenSets": {
+      "brands/brand-1/color": "enabled",
+      "globals/font/index": "enabled",
+      "globals/size/font": "enabled",
+      "globals/spacing/spacing": "enabled",
+      "globals/radius": "enabled",
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
+    },
+    "$figmaStyleReferences": {
+      "color.font.base": "S:997f65a63c0d14e87e4006c10dd95004b750bb79,",
+      "color.font.primary": "S:7d7d634c77b0d9d4912173102e124756e9ce4ebe,",
+      "color.font.secondary": "S:97856ac8d29c771059bc22fff4760489e9881275,",
+      "color.font.tertiary": "S:b63447bec99aa1022a77ac08609c97918a95ba00,",
+      "color.base.black": "S:4ddff3579fecb5d990fb69369036a8baa809b417,",
+      "color.base.gray.light": "S:443fbdb3a3f202d3edc841e59ca24e9c9701689c,",
+      "color.base.gray.medium": "S:dcee488eea90ad39c06c65876ca170efc1b09574,",
+      "color.base.gray.dark": "S:a84fbc073c94c9899d0e779cac28909d3f6f70e8,",
+      "color.base.red": "S:80756046b193dd1f2d90a4a8137bac48088ea9a3,",
+      "color.base.green": "S:b1af8fff95cdfedcdb61e5896004f387d2d909d6,",
+      "color.primary": "S:a2194247658f186cf55e69f6110659900ab73c02,",
+      "color.secondary": "S:49f74ac022fc04c537263f861c9bd98d4b57a3a5,",
+      "color.action.primary": "S:3affb63661969c5bfa720906b7c51a005b67996b,",
+      "color.action.secondary": "S:71bb445bb76dae4b520f66f7e2ac39563905637d,",
+      "color.action.tertiary": "S:c1aa3a124f10b9c21de51b2ec21340306579119e,",
+      "color.brand.primary": "S:f2c7106e20d32241ef950e78df477c518a4e2346,",
+      "color.brand.secondary": "S:47b6285bdbf205b6875c83a3339cdcbb0b2cbffe,",
+      "color.accent.neutral.10": "S:7cb2ff0e5d4d58b2e98b6c4526686748bdd57e22,",
+      "color.accent.neutral.20": "S:0b69b2b01f44a54055fb492a33eae85711d74d75,",
+      "color.accent.neutral.30": "S:3287ebdeae0c5d2c1908382e535f4c69381eef85,",
+      "color.accent.neutral.40": "S:237776c46e32f1620118cb9d05fa92fec1c11e48,",
+      "color.accent.neutral.50": "S:8503c3ae9f95741d4018b998f5bcd225321fe4cf,",
+      "color.accent.neutral.60": "S:8e4d6b5f87671528640d43a905fe3b9ec14a582f,",
+      "color.accent.neutral.70": "S:f470d603d166d74fd0d120e85bfac7ae8c1f20bd,",
+      "color.accent.neutral.80": "S:544cd12a5fa8b97d72e8a64b2ceeb3a8ad575325,",
+      "color.accent.neutral.90": "S:086d77feb9b33c6831fcec77682a025ba37172a8,",
+      "color.accent.neutral.100": "S:483a17375de77f392d9cc7d8fd5a7ca871aa951c,",
+      "color.accent.background.0": "S:bb1a310df8eece730457bf80413642ed711e07b3,"
+    }
+  },
+  {
+    "id": "51d39cada6b3348c99af84689342a938003ff133",
+    "name": "Brand-2-dark",
+    "selectedTokenSets": {
+      "globals/font/index": "enabled",
+      "globals/size/font": "enabled",
+      "brands/brand-2-dark/color": "enabled",
+      "globals/spacing/spacing": "enabled",
+      "globals/radius": "enabled",
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "1b4767b3c1989bbeb9cfdf9667f4987478b82a4e",
+    "name": "Brand-1-dark",
+    "selectedTokenSets": {
+      "brands/brand-1-dark/color": "enabled",
+      "globals/font/index": "enabled",
+      "globals/size/font": "enabled",
+      "globals/spacing/spacing": "enabled",
+      "globals/radius": "enabled",
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "ea1c91bbc1ba7ef50b51aa9a93bedc8b4a39c71f",
+    "name": "Brand-3-dark",
+    "selectedTokenSets": {
+      "brands/brand-3-dark/color": "enabled",
+      "globals/font/index": "enabled",
+      "globals/size/font": "enabled",
+      "globals/spacing/spacing": "enabled",
+      "globals/radius": "enabled",
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
