@@ -4,29 +4,29 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 27 Mar 2023 08:30:16 GMT
+// Generated on Mon, 27 Mar 2023 08:55:13 GMT
 
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define FontFontFamiliesPoppins @"Poppins"
-#define FontLineHeights0 @"120%"
-#define FontLineHeights1 @"140%"
-#define FontFontWeightsPoppinsLight @"300"
-#define FontFontWeightsPoppinsRegular @"400"
-#define FontFontWeightsPoppinsMedium @"500"
-#define FontFontWeightsPoppinsSemiBold @"600"
-#define FontFontWeightsPoppinsBold @"700"
-#define FontFontWeightsPoppinsExtraBold @"900"
-#define FontFontSizeXs @"12px"
-#define FontFontSizeS @"14px"
-#define FontFontSizeM @"16px"
-#define FontFontSizeL @"20px"
-#define FontFontSizeXl @"24px"
-#define FontLetterSpacing0 @"0%"
-#define FontParagraphSpacing0 @"0"
-#define FontTextCaseNone @"none"
+#define FontFamiliesPoppins Poppins
+#define LineHeights0 120%
+#define LineHeights1 140%
+#define FontWeightsPoppinsLight 300
+#define FontWeightsPoppinsRegular 400
+#define FontWeightsPoppinsMedium 500
+#define FontWeightsPoppinsSemiBold 600
+#define FontWeightsPoppinsBold 700
+#define FontWeightsPoppinsExtraBold 900
+#define FontSizeXs 12px
+#define FontSizeS 14px
+#define FontSizeM 16px
+#define FontSizeL 20px
+#define FontSizeXl 24px
+#define LetterSpacing0 0%
+#define ParagraphSpacing0 0
+#define TextCaseNone none
 #define FontTextDecorationNone @"none"
 #define FontParagraphIndent0 @"0px"
 #define FontPlatformSystem @"San Francisco"

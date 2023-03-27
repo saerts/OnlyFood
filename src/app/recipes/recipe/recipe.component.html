@@ -1,5 +1,13 @@
-<div *ngIf="recipe">
-	<h1>{{ recipe.title }}</h1>
+<div class="recipe" *ngIf="recipe">
+	<div class="header">
+		<h1>{{ recipe.title }}</h1>
+		<div class="category-time-container">
+			<div class="category">
+			
+			</div>
+		</div>
+	</div>
+	
 	<p>
 		{{ recipe.category }}
 	</p>

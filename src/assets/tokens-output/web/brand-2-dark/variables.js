@@ -1,25 +1,25 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 08:30:16 GMT
+ * Generated on Mon, 27 Mar 2023 08:55:13 GMT
  */
 
-export const FontFontFamiliesPoppins = "Poppins";
-export const FontLineHeights0 = "120%";
-export const FontLineHeights1 = "140%";
-export const FontFontWeightsPoppinsLight = "300";
-export const FontFontWeightsPoppinsRegular = "400";
-export const FontFontWeightsPoppinsMedium = "500";
-export const FontFontWeightsPoppinsSemiBold = "600";
-export const FontFontWeightsPoppinsBold = "700";
-export const FontFontWeightsPoppinsExtraBold = "900";
-export const FontFontSizeXs = "12px";
-export const FontFontSizeS = "14px";
-export const FontFontSizeM = "16px";
-export const FontFontSizeL = "20px";
-export const FontFontSizeXl = "24px";
-export const FontLetterSpacing0 = "0%";
-export const FontParagraphSpacing0 = "0";
-export const FontTextCaseNone = "none";
+export const FontFamiliesPoppins = "Poppins";
+export const LineHeights0 = "120%";
+export const LineHeights1 = "140%";
+export const FontWeightsPoppinsLight = "300";
+export const FontWeightsPoppinsRegular = "400";
+export const FontWeightsPoppinsMedium = "500";
+export const FontWeightsPoppinsSemiBold = "600";
+export const FontWeightsPoppinsBold = "700";
+export const FontWeightsPoppinsExtraBold = "900";
+export const FontSizeXs = "12px";
+export const FontSizeS = "14px";
+export const FontSizeM = "16px";
+export const FontSizeL = "20px";
+export const FontSizeXl = "24px";
+export const LetterSpacing0 = "0%";
+export const ParagraphSpacing0 = "0";
+export const TextCaseNone = "none";
 export const FontTextDecorationNone = "none";
 export const FontParagraphIndent0 = "0px";
 export const Heading1 = {"fontFamily":"Poppins","fontWeight":"600","lineHeight":"120%","fontSize":"20px"};

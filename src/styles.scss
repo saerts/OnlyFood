@@ -19,13 +19,13 @@ body {
 	-webkit-overflow-scrolling: touch;
 	height: 100%;
 	margin: 0;
-	font-family: $font-font-families-poppins, "Helvetica Neue", sans-serif;
-	font-weight: $font-font-weights-poppins-regular;
-	font-size: $font-font-size-m;
+	font-family: $font-families-poppins, "Helvetica Neue", sans-serif;
+	font-weight: $font-weights-poppins-regular;
+	font-size: $font-size-m;
 	box-sizing: border-box;
 }
 
 h1{
-	font-weight: $font-font-weights-poppins-semi-bold;
-	font-size: $font-font-size-xl;
+	font-weight: $font-weights-poppins-semi-bold;
+	font-size: $font-size-xl;
 }

@@ -1,20 +1,20 @@
 {
   "Heading 1": {
     "value": {
-      "fontFamily": "{font.fontFamilies.poppins.value}",
-      "fontWeight": "{font.fontWeights.poppins-SemiBold.value}",
-      "lineHeight": "{font.lineHeights.0.value}",
-      "fontSize": "{font.fontSize.l.value}"
+      "fontFamily": "{fontFamilies.poppins}",
+      "fontWeight": "{fontWeights.poppins-SemiBold}",
+      "lineHeight": "{lineHeights.0}",
+      "fontSize": "{fontSize.l}"
     },
     "type": "typography",
     "description": "Heading 1"
   },
   "Heading 2": {
     "value": {
-      "fontFamily": "{font.fontFamilies.poppins.value}",
-      "fontWeight": "{font.fontWeights.poppins-Bold.value}",
-      "lineHeight": "{font.lineHeights.0.value}",
-      "fontSize": "{font.fontSize.l.value}"
+      "fontFamily": "{fontFamilies.poppins}",
+      "fontWeight": "{fontWeights.poppins-Bold}",
+      "lineHeight": "{lineHeights.0}",
+      "fontSize": "{fontSize.l}"
     },
     "type": "typography"
   }
