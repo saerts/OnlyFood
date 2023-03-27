@@ -3,13 +3,9 @@
     "id": "5f0e9a10b235a9e95f67acc55a686bcbb120b3c5",
     "name": "Brand-2",
     "selectedTokenSets": {
-      "globals/font/index": "enabled",
-      "globals/size/font": "enabled",
       "brands/brand-2/color": "enabled",
-      "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled",
-      "globals/size/size": "enabled"
+      "globals/font/styles": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -17,13 +13,9 @@
     "id": "b54c8f1ef78da572e370cad1703b751b1238beac",
     "name": "Brand-3",
     "selectedTokenSets": {
-      "globals/font/index": "enabled",
-      "globals/size/font": "enabled",
       "brands/brand-3/color": "enabled",
-      "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled",
-      "globals/size/size": "enabled"
+      "globals/font/styles": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -32,12 +24,8 @@
     "name": "Brand-1",
     "selectedTokenSets": {
       "brands/brand-1/color": "enabled",
-      "globals/font/index": "enabled",
-      "globals/size/font": "enabled",
-      "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled",
-      "globals/size/size": "enabled"
+      "globals/font/styles": "enabled"
     },
     "$figmaStyleReferences": {
       "color.font.base": "S:997f65a63c0d14e87e4006c10dd95004b750bb79,",
@@ -74,13 +62,9 @@
     "id": "51d39cada6b3348c99af84689342a938003ff133",
     "name": "Brand-2-dark",
     "selectedTokenSets": {
-      "globals/font/index": "enabled",
-      "globals/size/font": "enabled",
       "brands/brand-2-dark/color": "enabled",
-      "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled",
-      "globals/size/size": "enabled"
+      "globals/font/styles": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -89,12 +73,8 @@
     "name": "Brand-1-dark",
     "selectedTokenSets": {
       "brands/brand-1-dark/color": "enabled",
-      "globals/font/index": "enabled",
-      "globals/size/font": "enabled",
-      "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled",
-      "globals/size/size": "enabled"
+      "globals/font/styles": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -103,12 +83,8 @@
     "name": "Brand-3-dark",
     "selectedTokenSets": {
       "brands/brand-3-dark/color": "enabled",
-      "globals/font/index": "enabled",
-      "globals/size/font": "enabled",
-      "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled",
-      "globals/size/size": "enabled"
+      "globals/font/styles": "enabled"
     },
     "$figmaStyleReferences": {
       "color.brand.primary.50": "S:de0e5f38d5607de8282683203af3e740ca27f880,",
