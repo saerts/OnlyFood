@@ -2,14 +2,88 @@
   "color": {
     "brand": {
       "primary": {
-        "value": "#d818f9",
-        "type": "color",
-        "description": "#d818f9"
+        "50": {
+          "value": "#FBE8FE",
+          "type": "color"
+        },
+        "100": {
+          "value": "#F3B7FD",
+          "type": "color"
+        },
+        "200": {
+          "value": "#ED95FC",
+          "type": "color"
+        },
+        "300": {
+          "value": "#E564FB",
+          "type": "color"
+        },
+        "400": {
+          "value": "#E046FA",
+          "type": "color"
+        },
+        "500": {
+          "value": "#D818F9",
+          "type": "color"
+        },
+        "600": {
+          "value": "#C516E3",
+          "type": "color"
+        },
+        "700": {
+          "value": "#9911B1",
+          "type": "color"
+        },
+        "800": {
+          "value": "#770D89",
+          "type": "color"
+        },
+        "900": {
+          "value": "#5B0A69",
+          "type": "color"
+        }
       },
       "secondary": {
-        "value": "#750682",
-        "type": "color",
-        "description": "#BAD1CD"
+        "50": {
+          "value": "#F1E6F3",
+          "type": "color"
+        },
+        "100": {
+          "value": "#D4B2D8",
+          "type": "color"
+        },
+        "200": {
+          "value": "#C08CC6",
+          "type": "color"
+        },
+        "300": {
+          "value": "#A358AB",
+          "type": "color"
+        },
+        "400": {
+          "value": "#91389B",
+          "type": "color"
+        },
+        "500": {
+          "value": "#750682",
+          "type": "color"
+        },
+        "600": {
+          "value": "#6A0576",
+          "type": "color"
+        },
+        "700": {
+          "value": "#53045C",
+          "type": "color"
+        },
+        "800":  {
+          "value": "#400348",
+          "type": "color"
+        },
+        "900": {
+          "value": "#310337",
+          "type": "color"
+        }
       }
     },
     "accent": {
