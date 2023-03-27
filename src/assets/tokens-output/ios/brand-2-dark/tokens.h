@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 27 Mar 2023 17:17:45 GMT
+// Generated on Mon, 27 Mar 2023 17:41:04 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -38,9 +38,9 @@
 #define RadiusL 20px
 #define RadiusXl 24px
 #define SizeFontSmall 224.00f
-#define SizeFontMedium 16.00f
-#define SizeFontLarge 32.00f
-#define SizeFontBase 16.00f
+#define SizeFontMedium 256.00f
+#define SizeFontLarge 320.00f
+#define SizeFontBase 256.00f
 #define SizeS 224.00f
 #define SizeM 256.00f
 #define SizeL 320.00f

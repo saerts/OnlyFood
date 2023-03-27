@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 17:17:45 GMT
+ * Generated on Mon, 27 Mar 2023 17:41:04 GMT
  */
 
 export const FontFamiliesPoppins = "Poppins";
@@ -30,9 +30,9 @@ export const RadiusM = "16px";
 export const RadiusL = "20px";
 export const RadiusXl = "24px";
 export const SizeFontSmall = "14rem"; // the small size of the font
-export const SizeFontMedium = "1rem"; // the medium size of the font
-export const SizeFontLarge = "2rem"; // the large size of the font
-export const SizeFontBase = "1rem"; // the base size of the font
+export const SizeFontMedium = "16rem"; // the medium size of the font
+export const SizeFontLarge = "20rem"; // the large size of the font
+export const SizeFontBase = "16rem"; // the base size of the font
 export const SizeS = "14rem"; // the small size of the font
 export const SizeM = "16rem"; // the medium size of the font
 export const SizeL = "20rem"; // the large size of the font
