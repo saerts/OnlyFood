@@ -1,5 +1,5 @@
 {
-  "Heading 1": {
+  "Heading-1": {
     "value": {
       "fontFamily": "{fontFamilies.poppins}",
       "fontWeight": "{fontWeights.poppins-SemiBold}",
@@ -9,7 +9,7 @@
     "type": "typography",
     "description": "Heading 1"
   },
-  "Heading 2": {
+  "Heading-2": {
     "value": {
       "fontFamily": "{fontFamilies.poppins}",
       "fontWeight": "{fontWeights.poppins-Bold}",
