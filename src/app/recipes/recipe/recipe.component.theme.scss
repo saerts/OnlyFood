@@ -4,4 +4,9 @@
 	$accent: map-get($theme, accent);
 	$primary: map-get($theme, primary);
 
+	app-recipe{
+		.rating mat-icon{
+			color: mat-color($primary, secondary-500);
+		}
+	}
 }

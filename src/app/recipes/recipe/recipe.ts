@@ -7,4 +7,5 @@ export interface Recipe {
   ratingKids: number;
   ingredients: any;
   recept: string;
+  visual: string;
 }

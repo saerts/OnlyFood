@@ -3,12 +3,12 @@ import {Component, OnInit} from '@angular/core';
 @Component({
   selector: 'app-top-nav',
   template: `
-	  <button class="iconOnly">
-		  <img alt="back" src="../../assets/icons/back.svg"/>
+	  <button mat-icon-button aria-label="Back">
+		  <mat-icon>keyboard_backspace</mat-icon>
 	  </button>
-	  <button class="iconOnly">
-		  <img alt="more" src="../../assets/icons/more.svg"/>
-	  </button>
+    <button mat-icon-button aria-label="Back">
+	    <mat-icon>more_horiz</mat-icon>
+    </button>
   `,
   styleUrls: ["top-nav.component.scss"]
 })

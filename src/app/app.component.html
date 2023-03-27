@@ -12,9 +12,9 @@
 			<mat-slide-toggle color="primary" [checked]="darkmode" (change)="changeBrand($event)">Dark mode</mat-slide-toggle>
 		</div>
 	</div>
-	<div class="onlyFood mt-xl pl-m pr-m">
-		<app-top-nav class="mb-m"></app-top-nav>
-		<app-recipe *ngFor="let item of recipe" [recipe]="item"></app-recipe>
+	<div class="onlyFood mt-xl">
+		<app-top-nav class="mb-m pl-s pr-s"></app-top-nav>
+		<app-recipe class="pl-m pr-m" *ngFor="let item of recipe" [recipe]="item"></app-recipe>
 	</div>
 </div>
 

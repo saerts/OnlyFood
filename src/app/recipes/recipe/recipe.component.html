@@ -3,13 +3,28 @@
 		<h1>{{ recipe.title }}</h1>
 		<div class="category-time-container">
 			<div class="category">
-				<mat-icon>category</mat-icon> {{ recipe.category }}
+				<mat-icon>local_offer</mat-icon>
+				<a href="#">{{ recipe.category }}</a>
 			</div>
 			<div class="time">
-				<mat-icon>schedule</mat-icon> {{ recipe.preparationTime }}
+				<mat-icon>watch_later</mat-icon>
+				{{ recipe.preparationTime }}
 			</div>
 		</div>
-		
+		<div class="visual-container mt-l mb-l">
+			<img src="{{ recipe.visual }}" alt="{{ recipe.title }}"/>
+			<div class="ratings mt-m">
+				<div class="rating adult">
+					<mat-icon>star</mat-icon>
+					<span>7,5</span> <span class="users ml-s">(2 Adults)</span>
+				</div>
+				<div class="rating adult">
+					<mat-icon>child_care</mat-icon>
+					<span>3,5</span> <span class="users ml-s">(2 Kids)</span>
+				</div>
+			</div>
+		</div>
+	
 	</div>
 	
 	<p>

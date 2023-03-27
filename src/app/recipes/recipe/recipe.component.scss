@@ -1,6 +1,7 @@
 @use "variables" as var;
 :host{
-
+	display:block;
+	box-sizing: border-box;
 	.header{
 		margin-bottom: var.$spacing-m;
 	}
@@ -20,6 +21,40 @@
 			margin-right: var.$spacing-xs;
 			width: 16px; height: 16px;
 			font-size: var.$font-size-m;
+		}
+	}
+
+	.visual-container{
+		display:flex;
+		flex-direction:column;
+
+		img{
+			border-radius: var.$radius-m;
+		}
+
+		.ratings{
+			display:flex;
+			align-items:center;
+			justify-content:space-between;
+
+			.rating{
+				display:flex;
+				align-items:center;
+				font-size: var.$font-size-s;
+				font-weight: var.$font-weights-poppins-semi-bold;
+				line-height: var.$line-heights-0;
+
+				mat-icon{
+					font-size: var.$font-size-m;
+					width: var.$size-m; height: var.$size-m;
+					margin-right: var.$spacing-xs;
+				}
+
+				span.users{
+					font-size: var.$font-size-xs;
+					font-weight: var.$font-weights-poppins-regular;
+				}
+			}
 		}
 	}
 }

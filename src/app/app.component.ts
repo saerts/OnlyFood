@@ -23,6 +23,7 @@ export class AppComponent {
         {name: "Parmezaanse kaas in een blok", amount: "200g"},
         {name: "peper van de molen", amount: "-"}
       ],
+      "visual": "../assets/images/visual-carbonara.jpg",
       "recept": "Place onions and red peppers in a 4- or 5-qt. slow cooker. Add beef, soup mix and broth. Cook, covered, on low 6-8 hours or until" +
         " meat is tender., Arrange buns on a baking sheet, cut side up. Using tongs, place meat mixture on bun bottoms; top with cheese., Broil" +
         " 2-3 in. from heat 30-60 seconds or until cheese is melted and bun tops are toasted.",

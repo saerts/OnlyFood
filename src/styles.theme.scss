@@ -2,10 +2,20 @@
 @mixin styles($theme) {
 	$accent: map-get($theme, accent);
 	$primary: map-get($theme, primary);
-
-	app-root{
+	app-root {
 		color: mat-color($accent, neutral-90);
+		h1 {
+			color: mat-color($primary, primary);
+		}
+		a {
+			color: mat-color($primary, primary-300);
 
-		h1{color: mat-color($primary, primary-10)}
+			&:hover{
+				color: mat-color($primary, primary-100);
+			}
+		}
+		mat-icon{
+			color: mat-color($accent, neutral-90);
+		}
 	}
 }
