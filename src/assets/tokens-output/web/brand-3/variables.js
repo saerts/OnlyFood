@@ -1,8 +1,26 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 17:56:33 GMT
+ * Generated on Mon, 27 Mar 2023 18:00:26 GMT
  */
 
+export const Heading1 = {"fontFamily":"Poppins","fontWeight":"600","lineHeight":"120%","fontSize":"20px"};
+export const Heading2 = {"fontFamily":"Poppins","fontWeight":"700","lineHeight":"120%","fontSize":"20px"};
+export const RadiusXs = "4px";
+export const RadiusS = "8px";
+export const RadiusM = "16px";
+export const RadiusL = "20px";
+export const RadiusXl = "24px";
+export const SizeS = "14rem"; // the small size of the font
+export const SizeM = "16rem"; // the medium size of the font
+export const SizeL = "20rem"; // the large size of the font
+export const SizeXl = "24rem"; // the base size of the font
+export const SizeXxl = "16rem*2"; // 16rem*2
+export const SpacingNone = "0";
+export const SpacingXs = "4px";
+export const SpacingS = "8px";
+export const SpacingM = "16px";
+export const SpacingL = "8px*3";
+export const SpacingXl = "16px*2";
 export const FontFamiliesPoppins = "Poppins";
 export const LineHeights0 = "120%";
 export const LineHeights1 = "140%";
@@ -22,25 +40,3 @@ export const ParagraphSpacing0 = "0";
 export const TextCaseNone = "none";
 export const FontTextDecorationNone = "none";
 export const FontParagraphIndent0 = "0px";
-export const Heading1 = {"fontFamily":"Poppins","fontWeight":"600","lineHeight":"120%","fontSize":"20px"};
-export const Heading2 = {"fontFamily":"Poppins","fontWeight":"700","lineHeight":"120%","fontSize":"20px"};
-export const RadiusXs = "4px";
-export const RadiusS = "8px";
-export const RadiusM = "16px";
-export const RadiusL = "20px";
-export const RadiusXl = "24px";
-export const SizeFontSmall = "14rem"; // the small size of the font
-export const SizeFontMedium = "16rem"; // the medium size of the font
-export const SizeFontLarge = "20rem"; // the large size of the font
-export const SizeFontBase = "16rem"; // the base size of the font
-export const SizeS = "14rem"; // the small size of the font
-export const SizeM = "16rem"; // the medium size of the font
-export const SizeL = "20rem"; // the large size of the font
-export const SizeXl = "24rem"; // the base size of the font
-export const SizeXxl = "16rem*2"; // 16rem*2
-export const SpacingNone = "0";
-export const SpacingXs = "4px";
-export const SpacingS = "8px";
-export const SpacingM = "16px";
-export const SpacingL = "8px*3";
-export const SpacingXl = "16px*2";
