@@ -1,6 +1,4 @@
 {
-  "heading-1": {"fontFamily":"Poppins","fontWeight":"600","lineHeight":"120%","fontSize":"20px"},
-  "heading-2": {"fontFamily":"Poppins","fontWeight":"700","lineHeight":"120%","fontSize":"20px"},
   "radius-xs": "4px",
   "radius-s": "8px",
   "radius-m": "16px",

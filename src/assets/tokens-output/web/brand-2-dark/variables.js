@@ -1,10 +1,8 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 18:00:26 GMT
+ * Generated on Mon, 27 Mar 2023 18:28:24 GMT
  */
 
-export const Heading1 = {"fontFamily":"Poppins","fontWeight":"600","lineHeight":"120%","fontSize":"20px"};
-export const Heading2 = {"fontFamily":"Poppins","fontWeight":"700","lineHeight":"120%","fontSize":"20px"};
 export const RadiusXs = "4px";
 export const RadiusS = "8px";
 export const RadiusM = "16px";

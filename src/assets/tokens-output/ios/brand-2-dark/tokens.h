@@ -4,14 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 27 Mar 2023 18:00:26 GMT
+// Generated on Mon, 27 Mar 2023 18:28:24 GMT
 
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define Heading1 [object Object]
-#define Heading2 [object Object]
 #define RadiusXs 4px
 #define RadiusS 8px
 #define RadiusM 16px
