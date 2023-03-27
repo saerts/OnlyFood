@@ -1,5 +1,9 @@
 {
   "spacing": {
+    "none": {
+      "value": "0",
+      "type": "spacing"
+    },
     "xs": {
       "value": "4px",
       "type": "spacing"
@@ -13,7 +17,7 @@
       "type": "spacing"
     },
     "l": {
-      "value": "{spacing.s}*2",
+      "value": "{spacing.s}*3",
       "type": "spacing"
     },
     "xl": {

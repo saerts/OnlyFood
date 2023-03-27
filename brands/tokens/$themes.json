@@ -8,7 +8,8 @@
       "brands/brand-2/color": "enabled",
       "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled"
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -21,7 +22,8 @@
       "brands/brand-3/color": "enabled",
       "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled"
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -34,7 +36,8 @@
       "globals/size/font": "enabled",
       "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled"
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
     },
     "$figmaStyleReferences": {
       "color.font.base": "S:997f65a63c0d14e87e4006c10dd95004b750bb79,",
@@ -76,7 +79,8 @@
       "brands/brand-2-dark/color": "enabled",
       "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled"
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -89,7 +93,8 @@
       "globals/size/font": "enabled",
       "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled"
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -102,7 +107,8 @@
       "globals/size/font": "enabled",
       "globals/spacing/spacing": "enabled",
       "globals/radius": "enabled",
-      "globals/font/styles": "enabled"
+      "globals/font/styles": "enabled",
+      "globals/size/size": "enabled"
     },
     "$figmaStyleReferences": {}
   }

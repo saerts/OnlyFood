@@ -21,7 +21,7 @@
       "type": "sizing"
     },
     "xxl": {
-      "value": "{size.m.value}*2",
+      "value": "{size.m}*2",
       "comment": "{size.m.value}*2",
       "type": "sizing"
     }

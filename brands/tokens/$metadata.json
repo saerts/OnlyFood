@@ -16,6 +16,7 @@
     "platforms/ios/font",
     "platforms/web/button",
     "platforms/web/font",
-    "globals/radius"
+    "globals/radius",
+    "globals/size/size"
   ]
 }
