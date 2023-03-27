@@ -19,11 +19,13 @@ body {
 	-webkit-overflow-scrolling: touch;
 	height: 100%;
 	margin: 0;
-	font-family: Poppins, "Helvetica Neue", sans-serif;
-	font-weight: 400;
+	font-family: $font-font-families-poppins, "Helvetica Neue", sans-serif;
+	font-weight: $font-font-weights-poppins-regular;
+	font-size: $font-font-size-m;
 	box-sizing: border-box;
 }
 
-h2{
-	font-weight: 700;
+h1{
+	font-weight: $font-font-weights-poppins-semi-bold;
+	font-size: $font-font-size-xl;
 }
