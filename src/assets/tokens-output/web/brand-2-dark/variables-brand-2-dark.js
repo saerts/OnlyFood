@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 14:11:33 GMT
+ * Generated on Mon, 27 Mar 2023 17:17:43 GMT
  */
 
 export const ColorBrandPrimary50 = "#fbe8fe";

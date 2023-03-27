@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 14:11:36 GMT
+ * Generated on Mon, 27 Mar 2023 17:17:45 GMT
  */
 
 export const FontFamiliesPoppins = "Poppins";

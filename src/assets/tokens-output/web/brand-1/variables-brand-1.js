@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 14:11:33 GMT
+ * Generated on Mon, 27 Mar 2023 17:17:43 GMT
  */
 
 export const ColorBrandPrimary50 = "#ebeef5";
@@ -33,4 +33,4 @@ export const ColorAccentNeutral70 = "#606060";
 export const ColorAccentNeutral80 = "#484848";
 export const ColorAccentNeutral90 = "#303030";
 export const ColorAccentNeutral100 = "#181818";
-export const ColorAccentBackground0 = "#e4eff3";
+export const ColorAccentBackground0 = "#eff6f9";
