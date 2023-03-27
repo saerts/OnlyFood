@@ -15,6 +15,7 @@
     "platforms/ios/button",
     "platforms/ios/font",
     "platforms/web/button",
-    "platforms/web/font"
+    "platforms/web/font",
+    "globals/border"
   ]
 }

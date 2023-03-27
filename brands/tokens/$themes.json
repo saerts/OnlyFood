@@ -4,7 +4,11 @@
     "name": "Brand-2",
     "selectedTokenSets": {
       "brands/brand-2/color": "enabled",
-      "globals/radius": "enabled"
+      "globals/radius": "enabled",
+      "globals/typography": "enabled",
+      "globals/size": "enabled",
+      "globals/spacing": "enabled",
+      "globals/border": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -13,7 +17,11 @@
     "name": "Brand-3",
     "selectedTokenSets": {
       "brands/brand-3/color": "enabled",
-      "globals/radius": "enabled"
+      "globals/radius": "enabled",
+      "globals/typography": "enabled",
+      "globals/size": "enabled",
+      "globals/spacing": "enabled",
+      "globals/border": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -22,7 +30,11 @@
     "name": "Brand-1",
     "selectedTokenSets": {
       "brands/brand-1/color": "enabled",
-      "globals/radius": "enabled"
+      "globals/radius": "enabled",
+      "globals/typography": "enabled",
+      "globals/size": "enabled",
+      "globals/spacing": "enabled",
+      "globals/border": "enabled"
     },
     "$figmaStyleReferences": {
       "color.font.base": "S:997f65a63c0d14e87e4006c10dd95004b750bb79,",
@@ -60,7 +72,11 @@
     "name": "Brand-2-dark",
     "selectedTokenSets": {
       "brands/brand-2-dark/color": "enabled",
-      "globals/radius": "enabled"
+      "globals/radius": "enabled",
+      "globals/typography": "enabled",
+      "globals/size": "enabled",
+      "globals/spacing": "enabled",
+      "globals/border": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -69,7 +85,11 @@
     "name": "Brand-1-dark",
     "selectedTokenSets": {
       "brands/brand-1-dark/color": "enabled",
-      "globals/radius": "enabled"
+      "globals/radius": "enabled",
+      "globals/typography": "enabled",
+      "globals/size": "enabled",
+      "globals/spacing": "enabled",
+      "globals/border": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -78,7 +98,11 @@
     "name": "Brand-3-dark",
     "selectedTokenSets": {
       "brands/brand-3-dark/color": "enabled",
-      "globals/radius": "enabled"
+      "globals/radius": "enabled",
+      "globals/typography": "enabled",
+      "globals/size": "enabled",
+      "globals/spacing": "enabled",
+      "globals/border": "enabled"
     },
     "$figmaStyleReferences": {
       "color.brand.primary.50": "S:de0e5f38d5607de8282683203af3e740ca27f880,",

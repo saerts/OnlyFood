@@ -1,3 +1,26 @@
 {
-
+  "s": {
+    "value": "1",
+    "type": "borderWidth"
+  },
+  "m": {
+    "value": "2",
+    "type": "borderWidth"
+  },
+  "l": {
+    "value": "4",
+    "type": "borderWidth"
+  },
+  "bodytext": {
+    "value": "{color.accent.neutral.90}",
+    "type": "color"
+  },
+  "Primary": {
+    "value": "{color.brand.primary.500}",
+    "type": "color"
+  },
+  "Secondary": {
+    "value": "{color.brand.secondary.500}",
+    "type": "color"
+  }
 }
