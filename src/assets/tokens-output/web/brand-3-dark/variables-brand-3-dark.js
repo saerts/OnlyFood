@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 14:11:33 GMT
+ * Generated on Mon, 27 Mar 2023 16:10:05 GMT
  */
 
 export const ColorBrandPrimary50 = "#fdeceb";
