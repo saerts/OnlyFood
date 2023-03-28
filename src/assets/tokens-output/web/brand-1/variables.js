@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Mar 2023 07:10:27 GMT
+ * Generated on Tue, 28 Mar 2023 08:13:02 GMT
  */
 
 export const ColorBrandPrimary50 = "#ebeef5";
@@ -8,7 +8,7 @@ export const ColorBrandPrimary100 = "#c2ccdf";
 export const ColorBrandPrimary200 = "#a5b3d0";
 export const ColorBrandPrimary300 = "#7c90ba";
 export const ColorBrandPrimary400 = "#627aad";
-export const ColorBrandPrimary500 = "#3b5998";
+export const ColorBrandPrimary500 = "#ffe600";
 export const ColorBrandPrimary600 = "#36518a";
 export const ColorBrandPrimary700 = "#2a3f6c";
 export const ColorBrandPrimary800 = "#203154";
@@ -34,12 +34,15 @@ export const ColorAccentNeutral80 = "#484848";
 export const ColorAccentNeutral90 = "#303030";
 export const ColorAccentNeutral100 = "#181818";
 export const ColorAccentBackground0 = "#eff6f9";
-export const S = "1";
-export const M = "2";
-export const L = "4";
-export const Bodytext = "#303030";
-export const Primary = "#3b5998";
-export const Secondary = "#8ab1ff";
+export const BorderBorderWidthS = "1";
+export const BorderBorderWidthM = "2";
+export const BorderBorderWidthL = "4";
+export const BorderColorBodytext = "#303030";
+export const BorderColorPrimary = "#ffe600";
+export const BorderColorSecondary = "#8ab1ff";
+export const BorderBorderS = {"color":"#303030","style":"solid"};
+export const BorderBorderM = {"color":"#303030","width":"2","style":"solid"};
+export const BorderBorderL = {"color":"#303030","width":"4","style":"solid"};
 export const RadiusXs = "4px";
 export const RadiusS = "8px";
 export const RadiusM = "16px";

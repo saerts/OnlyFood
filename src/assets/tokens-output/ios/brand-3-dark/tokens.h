@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 28 Mar 2023 07:10:28 GMT
+// Generated on Tue, 28 Mar 2023 08:13:02 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -41,12 +41,15 @@
 #define ColorAccentNeutral90 [UIColor colorWithRed:0.851f green:0.851f blue:0.851f alpha:1.000f]
 #define ColorAccentNeutral100 [UIColor colorWithRed:0.945f green:0.945f blue:0.945f alpha:1.000f]
 #define ColorAccentBackground0 [UIColor colorWithRed:0.000f green:0.000f blue:0.000f alpha:1.000f]
-#define S 1
-#define M 2
-#define L 4
-#define Bodytext [UIColor colorWithRed:0.851f green:0.851f blue:0.851f alpha:1.000f]
-#define Primary [UIColor colorWithRed:0.918f green:0.263f blue:0.208f alpha:1.000f]
-#define Secondary [UIColor colorWithRed:0.949f green:0.435f blue:0.004f alpha:1.000f]
+#define BorderBorderWidthS 1
+#define BorderBorderWidthM 2
+#define BorderBorderWidthL 4
+#define BorderColorBodytext [UIColor colorWithRed:0.851f green:0.851f blue:0.851f alpha:1.000f]
+#define BorderColorPrimary [UIColor colorWithRed:0.918f green:0.263f blue:0.208f alpha:1.000f]
+#define BorderColorSecondary [UIColor colorWithRed:0.949f green:0.435f blue:0.004f alpha:1.000f]
+#define BorderBorderS [object Object]
+#define BorderBorderM [object Object]
+#define BorderBorderL [object Object]
 #define RadiusXs 4px
 #define RadiusS 8px
 #define RadiusM 16px
