@@ -2,8 +2,39 @@
 
 <!--
   Do not edit directly
-  Generated on Mon, 27 Mar 2023 18:28:24 GMT
+  Generated on Tue, 28 Mar 2023 07:07:49 GMT
 -->
 <resources>
+  <color name="color_brand_primary_50">#fffbe8fe</color>
+  <color name="color_brand_primary_100">#fff3b7fd</color>
+  <color name="color_brand_primary_200">#ffed95fc</color>
+  <color name="color_brand_primary_300">#ffe564fb</color>
+  <color name="color_brand_primary_400">#ffe046fa</color>
+  <color name="color_brand_primary_500">#ffd818f9</color>
+  <color name="color_brand_primary_600">#ffc516e3</color>
+  <color name="color_brand_primary_700">#ff9911b1</color>
+  <color name="color_brand_primary_800">#ff770d89</color>
+  <color name="color_brand_primary_900">#ff5b0a69</color>
+  <color name="color_brand_secondary_50">#fff1e6f3</color>
+  <color name="color_brand_secondary_100">#ffd4b2d8</color>
+  <color name="color_brand_secondary_200">#ffc08cc6</color>
+  <color name="color_brand_secondary_300">#ffa358ab</color>
+  <color name="color_brand_secondary_400">#ff91389b</color>
+  <color name="color_brand_secondary_500">#ff750682</color>
+  <color name="color_brand_secondary_600">#ff6a0576</color>
+  <color name="color_brand_secondary_700">#ff53045c</color>
+  <color name="color_brand_secondary_800">#ff400348</color>
+  <color name="color_brand_secondary_900">#ff310337</color>
+  <color name="color_accent_neutral_10">#ff181818</color>
+  <color name="color_accent_neutral_20">#ff303030</color>
+  <color name="color_accent_neutral_30">#ff484848</color>
+  <color name="color_accent_neutral_40">#ff606060</color>
+  <color name="color_accent_neutral_50">#ff797979</color>
+  <color name="color_accent_neutral_60">#ff919191</color>
+  <color name="color_accent_neutral_70">#ffa9a9a9</color>
+  <color name="color_accent_neutral_80">#ffc1c1c1</color>
+  <color name="color_accent_neutral_90">#ffd9d9d9</color>
+  <color name="color_accent_neutral_100">#fff1f1f1</color>
+  <color name="color_accent_background_0">#ff000000</color>
   
 </resources>
