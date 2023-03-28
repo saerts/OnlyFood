@@ -30,7 +30,7 @@
     },
     "border-s": {
       "value": {
-        "color": "#000",
+        "color": "{color.accent.neutral.90}",
         "width": "{border.border-width.s}",
         "style": "solid"
       },
@@ -38,7 +38,7 @@
     },
     "border-m": {
       "value": {
-        "color": "#000",
+        "color": "{color.accent.neutral.90}",
         "width": "{border.border-width.m}",
         "style": "solid"
       },
@@ -46,8 +46,8 @@
     },
     "border-l": {
       "value": {
-        "color": "#000",
-        "width": "{border.border-width.l}",
+        "color": "{color.accent.neutral.90}",
+        "width": "{border.border-width.m}*2",
         "style": "solid"
       },
       "type": "border"
