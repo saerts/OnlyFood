@@ -9,8 +9,6 @@
   ],
   "scripts": {
     "build": "node build.js",
-    "transformer": "token-transformer tokens/globals/typography.json test/output.json --expandTypography=true expandShadow=true",
-    "build-colors": "node build-colors.js",
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
