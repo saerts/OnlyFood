@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 28 Mar 2023 08:13:02 GMT
+// Generated on Tue, 28 Mar 2023 09:22:43 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -44,9 +44,9 @@
 #define BorderBorderWidthS 1
 #define BorderBorderWidthM 2
 #define BorderBorderWidthL 4
-#define BorderColorBodytext [UIColor colorWithRed:0.188f green:0.188f blue:0.188f alpha:1.000f]
-#define BorderColorPrimary [UIColor colorWithRed:0.918f green:0.263f blue:0.208f alpha:1.000f]
-#define BorderColorSecondary [UIColor colorWithRed:0.949f green:0.435f blue:0.004f alpha:1.000f]
+#define BorderBorderColorBodytext [UIColor colorWithRed:0.188f green:0.188f blue:0.188f alpha:1.000f]
+#define BorderBorderColorPrimary [UIColor colorWithRed:0.918f green:0.263f blue:0.208f alpha:1.000f]
+#define BorderBorderColorSecondary [UIColor colorWithRed:0.949f green:0.435f blue:0.004f alpha:1.000f]
 #define BorderBorderS [object Object]
 #define BorderBorderM [object Object]
 #define BorderBorderL [object Object]

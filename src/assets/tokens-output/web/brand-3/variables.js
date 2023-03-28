@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Mar 2023 08:13:02 GMT
+ * Generated on Tue, 28 Mar 2023 09:22:43 GMT
  */
 
 export const ColorBrandPrimary50 = "#fdeceb";
@@ -37,12 +37,12 @@ export const ColorAccentBackground0 = "#fffbf4";
 export const BorderBorderWidthS = "1";
 export const BorderBorderWidthM = "2";
 export const BorderBorderWidthL = "4";
-export const BorderColorBodytext = "#303030";
-export const BorderColorPrimary = "#ea4335";
-export const BorderColorSecondary = "#f26f01";
-export const BorderBorderS = {"color":"#303030","style":"solid"};
-export const BorderBorderM = {"color":"#303030","width":"2","style":"solid"};
-export const BorderBorderL = {"color":"#303030","width":"4","style":"solid"};
+export const BorderBorderColorBodytext = "#303030";
+export const BorderBorderColorPrimary = "#ea4335";
+export const BorderBorderColorSecondary = "#f26f01";
+export const BorderBorderS = {"color":"#000","width":"1","style":"solid"};
+export const BorderBorderM = {"color":"#000","width":"2","style":"solid"};
+export const BorderBorderL = {"color":"#000","width":"4","style":"solid"};
 export const RadiusXs = "4px";
 export const RadiusS = "8px";
 export const RadiusM = "16px";
