@@ -16,7 +16,7 @@ function getStyleDictionaryConfig(brand, platform) {
         "transformGroup": "web",
         "buildPath": `../src/assets/tokens-output/web/${brand}/`,
         "files": [{
-          "destination": `variables-${brand}.scss`,
+          "destination": `tokens-${brand}.scss`,
           "format": "scss/variables"
         }]
       },
