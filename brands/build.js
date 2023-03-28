@@ -5,11 +5,22 @@ const StyleDictionaryPackage = require('style-dictionary');
 function getStyleDictionaryConfig(brand, platform) {
   return {
     "source": [
+      `tokens/brands/${brand}/*.json`,
       "tokens/globals/**/*.json",
-      `tokens/platforms/${platform}/*.json`
+      `tokens/platforms/${platform}/*.json`,
+
     ],
     "platforms": {
+
       "web": {
+        "transformGroup": "web",
+        "buildPath": `../src/assets/tokens-output/web/${brand}/`,
+        "files": [{
+          "destination": `variables-${brand}.scss`,
+          "format": "scss/variables"
+        }]
+      },
+      "web-variables": {
         "transformGroup": "web",
         "buildPath": `../src/app/_partials/`,
         "files": [{
@@ -66,7 +77,7 @@ console.log('Build started...');
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
 ['brand-1', 'brand-2', 'brand-3', 'brand-1-dark', 'brand-2-dark', 'brand-3-dark'].map(function (brand) {
-  ['web', 'ios', 'android', 'js', 'json-flat'].map(function (platform) {
+  ['web', 'ios', 'android', 'js', 'json-flat', 'web-variables'].map(function (platform) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${platform}] [${brand}]`);
