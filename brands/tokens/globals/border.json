@@ -27,6 +27,29 @@
         "value": "{color.brand.secondary.500}",
         "type": "color"
       }
+    },
+    "border-s": {
+      "value": {
+        "color": "{border.color.bodytext}",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "border-m": {
+      "value": {
+        "color": "{border.color.bodytext}",
+        "width": "{border.border-width.m}",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "border-l": {
+      "value": {
+        "color": "{border.color.bodytext}",
+        "width": "{border.border-width.l}",
+        "style": "solid"
+      },
+      "type": "border"
     }
   }
 }
