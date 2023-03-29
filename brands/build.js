@@ -7,8 +7,8 @@ function getStyleDictionaryConfig(brand, platform) {
     "source": [
       `tokens/brands/${brand}/*.json`,
       "tokens/globals/**/*.json",
+      "tokens/assets/icons.json",
       `tokens/platforms/${platform}/*.json`,
-
     ],
     "platforms": {
 

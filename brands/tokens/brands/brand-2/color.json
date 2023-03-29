@@ -23,7 +23,7 @@
           "type": "color"
         },
         "500": {
-          "value": "#5f52ff",
+          "value": "red",
           "type": "color"
         },
         "600": {

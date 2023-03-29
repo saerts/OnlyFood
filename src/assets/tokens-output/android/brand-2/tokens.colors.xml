@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Tue, 28 Mar 2023 16:05:46 GMT
+  Generated on Wed, 29 Mar 2023 07:49:58 GMT
 -->
 <resources>
   <color name="color_brand_primary_50">#fffbe8fe</color>
@@ -10,7 +10,7 @@
   <color name="color_brand_primary_200">#ffed95fc</color>
   <color name="color_brand_primary_300">#ffe564fb</color>
   <color name="color_brand_primary_400">#ffe046fa</color>
-  <color name="color_brand_primary_500">#ffd818f9</color>
+  <color name="color_brand_primary_500">#ff5f52ff</color>
   <color name="color_brand_primary_600">#ffc516e3</color>
   <color name="color_brand_primary_700">#ff9911b1</color>
   <color name="color_brand_primary_800">#ff770d89</color>
