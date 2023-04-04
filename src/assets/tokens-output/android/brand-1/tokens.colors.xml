@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 29 Mar 2023 07:49:58 GMT
+  Generated on Tue, 04 Apr 2023 16:31:53 GMT
 -->
 <resources>
   <color name="color_brand_primary_50">#ffebeef5</color>
@@ -35,6 +35,6 @@
   <color name="color_accent_neutral_80">#ff484848</color>
   <color name="color_accent_neutral_90">#ff303030</color>
   <color name="color_accent_neutral_100">#ff181818</color>
-  <color name="color_accent_background_0">#ffeff6f9</color>
+  <color name="color_accent_background_0">#ffdbe7ff</color>
   
 </resources>

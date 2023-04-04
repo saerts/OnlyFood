@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 29 Mar 2023 07:49:58 GMT
+// Generated on Tue, 04 Apr 2023 16:31:53 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -40,7 +40,7 @@
 #define ColorAccentNeutral80 [UIColor colorWithRed:0.282f green:0.282f blue:0.282f alpha:1.000f]
 #define ColorAccentNeutral90 [UIColor colorWithRed:0.188f green:0.188f blue:0.188f alpha:1.000f]
 #define ColorAccentNeutral100 [UIColor colorWithRed:0.094f green:0.094f blue:0.094f alpha:1.000f]
-#define ColorAccentBackground0 [UIColor colorWithRed:0.937f green:0.965f blue:0.976f alpha:1.000f]
+#define ColorAccentBackground0 [UIColor colorWithRed:0.859f green:0.906f blue:1.000f alpha:1.000f]
 #define BorderBorderWidthS 1
 #define BorderBorderWidthM 2
 #define BorderBorderWidthL 4

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 29 Mar 2023 07:49:58 GMT
+ * Generated on Tue, 04 Apr 2023 16:31:53 GMT
  */
 
 export const ColorBrandPrimary50 = "#ebeef5";
@@ -33,7 +33,7 @@ export const ColorAccentNeutral70 = "#606060";
 export const ColorAccentNeutral80 = "#484848";
 export const ColorAccentNeutral90 = "#303030";
 export const ColorAccentNeutral100 = "#181818";
-export const ColorAccentBackground0 = "#eff6f9";
+export const ColorAccentBackground0 = "#dbe7ff";
 export const BorderBorderWidthS = "1";
 export const BorderBorderWidthM = "2";
 export const BorderBorderWidthL = "4";

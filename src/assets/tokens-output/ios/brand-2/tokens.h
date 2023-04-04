@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 29 Mar 2023 07:49:58 GMT
+// Generated on Tue, 04 Apr 2023 16:31:53 GMT
 
 
 #import <Foundation/Foundation.h>
@@ -15,7 +15,7 @@
 #define ColorBrandPrimary200 [UIColor colorWithRed:0.929f green:0.584f blue:0.988f alpha:1.000f]
 #define ColorBrandPrimary300 [UIColor colorWithRed:0.898f green:0.392f blue:0.984f alpha:1.000f]
 #define ColorBrandPrimary400 [UIColor colorWithRed:0.878f green:0.275f blue:0.980f alpha:1.000f]
-#define ColorBrandPrimary500 [UIColor colorWithRed:0.373f green:0.322f blue:1.000f alpha:1.000f]
+#define ColorBrandPrimary500 [UIColor colorWithRed:0.847f green:0.094f blue:0.976f alpha:1.000f]
 #define ColorBrandPrimary600 [UIColor colorWithRed:0.773f green:0.086f blue:0.890f alpha:1.000f]
 #define ColorBrandPrimary700 [UIColor colorWithRed:0.600f green:0.067f blue:0.694f alpha:1.000f]
 #define ColorBrandPrimary800 [UIColor colorWithRed:0.467f green:0.051f blue:0.537f alpha:1.000f]
@@ -45,7 +45,7 @@
 #define BorderBorderWidthM 2
 #define BorderBorderWidthL 4
 #define BorderBorderColorBodytext [UIColor colorWithRed:0.188f green:0.188f blue:0.188f alpha:1.000f]
-#define BorderBorderColorPrimary [UIColor colorWithRed:0.373f green:0.322f blue:1.000f alpha:1.000f]
+#define BorderBorderColorPrimary [UIColor colorWithRed:0.847f green:0.094f blue:0.976f alpha:1.000f]
 #define BorderBorderColorSecondary [UIColor colorWithRed:0.459f green:0.024f blue:0.510f alpha:1.000f]
 #define BorderBorderS [object Object]
 #define BorderBorderM [object Object]
