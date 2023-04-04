@@ -12,12 +12,14 @@ import {MatSelectModule} from "@angular/material/select";
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
 import {MatTabsModule} from "@angular/material/tabs";
+import {IngredientsComponent} from "./components/ingredients/ingredients.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     RecipeComponent,
     TopNavComponent,
+    IngredientsComponent
   ],
   imports: [
     BrowserModule,

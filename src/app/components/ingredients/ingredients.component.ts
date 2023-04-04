@@ -10,7 +10,7 @@ import {Ingredient} from "./ingredient";
 export class IngredientsComponent implements OnInit {
   /*@Input() ingredient: Ingredient|null = null;*/
   /*public ingredientItem: Ingredient[] = this.ingredient;*/
-
+  @Input() ingredients: Ingredient[] = [];
   constructor() { }
 
   ngOnInit(): void {

@@ -31,9 +31,11 @@
 				<!--<app-ingredients
 						*ngFor="let item of recipe.ingredients" [ingredient]="item"
 				></app-ingredients>-->
-				<div *ngFor="let ingredient of recipe.ingredients" class="ingredient">
+				<!--<div *ngFor="let ingredient of recipe.ingredients" class="ingredient">
 					{{ ingredient.name }} <span>{{ ingredient.amount }}</span>
-				</div>
+				</div>-->
+				<app-ingredients [ingredients]="recipe.ingredients"></app-ingredients>
+			
 			</div>
 		</mat-tab>
 		<mat-tab label="Recipe"> Recipe </mat-tab>
