@@ -141,7 +141,7 @@
       },
       "background": {
         "0": {
-          "value": "#eff6f9",
+          "value": "{color.brand.secondary.100}",
           "type": "color",
           "description": "#e4eff3"
         }
