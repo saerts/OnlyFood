@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { RecipeComponent } from './recipes/recipe/recipe.component';
-import {TopNavComponent} from "./top-nav/top-nav.component";
+import { RecipeComponent } from './components/recipes/recipe/recipe.component';
+import {TopNavComponent} from "./components/top-nav/top-nav.component";
 import {FormsModule} from "@angular/forms";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
@@ -17,7 +17,7 @@ import {MatTabsModule} from "@angular/material/tabs";
   declarations: [
     AppComponent,
     RecipeComponent,
-    TopNavComponent
+    TopNavComponent,
   ],
   imports: [
     BrowserModule,

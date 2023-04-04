@@ -1,7 +1,7 @@
 import {RouterModule, Routes} from "@angular/router";
 import {NgModule} from "@angular/core";
-import {RecipeComponent} from "./recipes/recipe/recipe.component";
-import {RecipeListComponent} from "./recipes/recipe-list/recipe-list.component";
+import {RecipeComponent} from "./components/recipes/recipe/recipe.component";
+import {RecipeListComponent} from "./components/recipes/recipe-list/recipe-list.component";
 
 const routes: Routes = [
   {

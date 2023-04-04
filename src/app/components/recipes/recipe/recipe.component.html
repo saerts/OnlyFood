@@ -28,6 +28,9 @@
 	<mat-tab-group>
 		<mat-tab label="Ingredients (6)">
 			<div class="ingredients">
+				<!--<app-ingredients
+						*ngFor="let item of recipe.ingredients" [ingredient]="item"
+				></app-ingredients>-->
 				<div *ngFor="let ingredient of recipe.ingredients" class="ingredient">
 					{{ ingredient.name }} <span>{{ ingredient.amount }}</span>
 				</div>

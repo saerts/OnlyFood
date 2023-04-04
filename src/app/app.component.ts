@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {Recipe} from "./recipes/recipe/recipe";
+import {Recipe} from "./components/recipes/recipe/recipe";
 import {MatSlideToggleChange} from "@angular/material/slide-toggle";
 
 
